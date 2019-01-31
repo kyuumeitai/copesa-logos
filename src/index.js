@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import styles from './styles.css'
 import Latercera from './logos/Latercera'
 
 export default class LTLogo extends Component {
@@ -17,6 +16,6 @@ export default class LTLogo extends Component {
       size = 40
     } = this.props
 
-    return Latercera
+    return <Latercera />
   }
 }
