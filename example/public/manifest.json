@@ -1,0 +1,8 @@
+{
+  "short_name": "copesa-logos",
+  "name": "copesa-logos",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
