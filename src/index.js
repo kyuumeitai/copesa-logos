@@ -1,22 +1,22 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import { SvgLoader, SvgProxy } from 'react-svgmt'
 import styles from './styles.css'
+import Latercera from './logos/Latercera'
 
-export default class ExampleComponent extends Component {
+export default class LTLogo extends Component {
   static propTypes = {
-    text: PropTypes.string
+    icon: PropTypes.string,
+    size: PropTypes.number,
+    className: PropTypes.string
   }
 
   render() {
     const {
-      text
+      icon,
+      className,
+      size = 40
     } = this.props
 
-    return (
-      <div className={styles.test}>
-        Example Component: {text}
-      </div>
-    )
+    return Latercera
   }
 }

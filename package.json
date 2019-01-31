@@ -59,6 +59,6 @@
     "dist"
   ],
   "dependencies": {
-    "react-svgmt": "^1.1.6"
+    "@svgr/cli": "^4.1.0"
   }
 }
