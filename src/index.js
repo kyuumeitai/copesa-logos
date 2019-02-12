@@ -26,6 +26,37 @@ import Radiodisney from './logos/Radiodisney'
 import Zero from './logos/Zero'
 import ZeroAlt from './logos/ZeroAlt'
 
+const Logos = {
+  Latercera,
+  Beethoven,
+  Biut,
+  Diarioconcepcion,
+  Duna,
+  Glamorama,
+  Grupocopesa,
+  GrupocopesaAlt,
+  Icarito,
+  LaboratorioDeContenidosDeMarca,
+  Lacuarta,
+  LahoraTubuenanoticia,
+  LtEldeportivo,
+  LtFinde,
+  LtNegocios,
+  LtPulso,
+  LtReportajes,
+  LtTendencias,
+  Masdeco,
+  MediosDigitalesGrupocopesa,
+  Mouse,
+  Mtonline,
+  Paula,
+  Quepasa,
+  Radiodisney,
+  Zero,
+  ZeroAlt
+}
+
+export default Logos
 export {
   Latercera,
   Beethoven,
