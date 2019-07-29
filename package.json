@@ -59,6 +59,7 @@
     "dist"
   ],
   "dependencies": {
-    "@svgr/cli": "^4.1.0"
+    "@svgr/cli": "^4.1.0",
+    "vue": "^2.6.10"
   }
 }
