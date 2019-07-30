@@ -84,7 +84,6 @@ import EdicionesEspecialesColor from './logos/all/LogoEdicionesEspecialesColor.j
 import EdicionesEspecialesColorWhite from './logos/all/LogoEdicionesEspecialesColorWhite.js'
 import EdicionesEspecialesCorto from './logos/all/LogoEdicionesEspecialesCorto.js'
 import EdicionesEspecialesWhite from './logos/all/LogoEdicionesEspecialesWhite.js'
-import EdicionesEspecialesWhiteSinLt from './logos/all/LogoEdicionesEspecialesWhiteSinLt.js'
 import ElDeportivoBlack from './logos/all/LogoElDeportivoBlack.js'
 import ElDeportivoBlackSinLt from './logos/all/LogoElDeportivoBlackSinLt.js'
 import ElDeportivoColor from './logos/all/LogoElDeportivoColor.js'
@@ -93,7 +92,7 @@ import ElDeportivoCorto01 from './logos/all/LogoElDeportivoCorto01.js'
 import ElDeportivoCorto02 from './logos/all/LogoElDeportivoCorto02.js'
 import ElDeportivoWhite from './logos/all/LogoElDeportivoWhite.js'
 import ElDeportivoWhiteSinLt from './logos/all/LogoElDeportivoWhiteSinLt.js'
-import EmporioPaulaBlack from './logos/all/LogoEmporioPaulaBlack.js'
+import EmporioPaulaBlacklack from './logos/all/LogoEmporioPaulaBlacklack.js'
 import EmporioPaulaCorto from './logos/all/LogoEmporioPaulaCorto.js'
 import EmporioPaulaWhite from './logos/all/LogoEmporioPaulaWhite.js'
 import FIndeColorWhite from './logos/all/LogoFIndeColorWhite.js'
@@ -304,7 +303,7 @@ const Logos = {
    EdicionesEspecialesColor,
    EdicionesEspecialesColorWhite,
    EdicionesEspecialesCorto,
-   EdicionesEspecialesWhiteSinLT,
+
    ElDeportivoBlack,
    ElDeportivoBlackSinLt,
    ElDeportivoColor,
@@ -313,8 +312,8 @@ const Logos = {
    ElDeportivoCorto02, 
    ElDeportivoWhite,
    ElDeportivoWhiteSinLt,
-   EmporioPaulaB,
-   EmporioPaulaC,
+   EmporioPaulaBlack,
+   EmporioPaulaColor,
    EmporioPaulaWhite,
    FIndeColorWhite,
    FindeBlack,
@@ -561,7 +560,6 @@ export {
   EdicionesEspecialesWhite,
   EdicionesEspecialesColor,
   EdicionesEspecialesCorto,
-  EdicionesEspecialesWhiteSinLT,
   ElDeportivoBlack,
   ElDeportivoBlackSinLt,
   ElDeportivoColor,
@@ -570,8 +568,8 @@ export {
   ElDeportivoCorto02, 
   ElDeportivoWhite,
   ElDeportivoWhiteSinLt,
-  EmporioPaulaB,
-  EmporioPaulaC,
+  EmporioPaulaBlack,
+  EmporioPaulaColor,
   EmporioPaulaWhite,
   FIndeColorWhite,
   FindeBlack,
@@ -734,7 +732,6 @@ export {
  ZeroCorto02 ,
  ZeroWhiteColor,
  ZeroWhiteSinLt,
-
  Latercera,
  Beethoven,
  Biut,
