@@ -37,7 +37,7 @@ import LaterceraWhite from './logos/white/Latercera';
 import LaboratorioDeContenidosDeMarcaWhite from './logos/white/LaboratorioDeContenidosDeMarca';
 // import CultoWhite from './logos/white/Culto'
 import DiarioconcepcionWhite from './logos/white/Diarioconcepcion';
-import PaulaWhite from './logos/white/Paula';
+// import PaulaWhite from './logos/white/Paula';
 import LtPulsoWhite from './logos/white/LtPulso';
 // import PulsoWhite from './logos/white/Pulso'
 import MasdecoWhite from './logos/white/Masdeco';
@@ -191,7 +191,7 @@ import NegociosCorto01 from './logos/all/LogoNegociosCorto01.js';
 import NegociosCorto02 from './logos/all/LogoNegociosCorto02.js';
 import NegociosWhite from './logos/all/LogoNegociosWhite.js';
 import NegociosWhiteSinLt from './logos/all/LogoNegociosWhiteSinLt.js';
-import PaulaBlack from './logos/all/LogoPaulaBlack.js';
+// import PaulaBlack from './logos/all/LogoPaulaBlack.js';
 import PaulaColorWhite from './logos/all/LogoPaulaColorWhite.js';
 import PaulaCorto from './logos/all/LogoPaulaCorto.js';
 import Pulso2Black from './logos/all/LogoPulso2Black.js';
@@ -255,8 +255,32 @@ import ZeroCorto01 from './logos/all/LogoZeroCorto01.js';
 import ZeroCorto02 from './logos/all/LogoZeroCorto02.js';
 import ZeroWhiteColor from './logos/all/LogoZeroWhiteColor.js';
 import ZeroWhiteSinLt from './logos/all/LogoZeroWhiteSinLt.js';
+import ZeroDialWhite from './logos/all/LogoZeroDialWhite.js';
+import ZeroDialColor from './logos/all/LogoZeroDialColor.js';
+
+import DunaDialWhite from './logos/all/LogoDunaDialWhite.js';
+import DunaDialColor from './logos/all/LogoDunaDialColor.js';
+import DunaDialSinBlockBlack from './logos/all/LogoDunaDialColor.js';
+import DunaDialSinBlockWhite from './logos/all/LogoDunaDialSinBlockWhite.js';
+
+import PaulaWhite from './logos/all/LogoPaulaWhite.js';
+import PaulaBlack from './logos/all/LogoPaulaBlack.js';
+
+import MTnewsWhite from './logos/all/LogoMTnewsWhite.js';
+import MTnewsBlack from './logos/all/LogoMTnewsBlack.js';
+
+import PaulaCocinaWhite from './logos/all/LogoPaulaCocinaWhite.js';
+import PaulaCocinaBlack from './logos/all/LogoPaulaCocinaBlack.js';
 
 const Logos = {
+	PaulaCocinaWhite,
+	PaulaCocinaBlack,
+	MTnewsWhite,
+	MTnewsBlack,
+	DunaDialWhite,
+	DunaDialColor,
+	ZeroDialWhite,
+	ZeroDialColor,
 	ZeroColor,
 	BeethovenBlack,
 	BeethovenBlackOrignal,
@@ -499,7 +523,6 @@ const Logos = {
 	LaboratorioDeContenidosDeMarcaWhite,
 	CultoWhite,
 	DiarioconcepcionWhite,
-	PaulaWhite,
 	LtPulsoWhite,
 	MasdecoWhite,
 	QuepasaWhite,
@@ -513,6 +536,16 @@ const Logos = {
 
 export default Logos;
 export {
+	PaulaWhite,
+	PaulaBlack,
+	PaulaCocinaWhite,
+	PaulaCocinaBlack,
+	MTnewsWhite,
+	MTnewsBlack,
+	DunaDialWhite,
+	DunaDialColor,
+	ZeroDialWhite,
+	ZeroDialColor,
 	ZeroColor,
 	LogoLtPmBlack,
 	BeethovenBlack,
@@ -658,7 +691,6 @@ export {
 	NegociosCorto02,
 	NegociosWhite,
 	NegociosWhiteSinLt,
-	PaulaBlack,
 	PaulaColorWhite,
 	PaulaCorto,
 	Pulso2Black,
@@ -754,7 +786,6 @@ export {
 	LaterceraWhite,
 	LaboratorioDeContenidosDeMarcaWhite,
 	DiarioconcepcionWhite,
-	PaulaWhite,
 	LtPulsoWhite,
 	MasdecoWhite,
 	QuepasaWhite,
