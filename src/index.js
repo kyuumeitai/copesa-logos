@@ -260,7 +260,7 @@ import ZeroDialColor from './logos/all/LogoZeroDialColor.js';
 
 import DunaDialWhite from './logos/all/LogoDunaDialWhite.js';
 import DunaDialColor from './logos/all/LogoDunaDialColor.js';
-import DunaDialSinBlockBlack from './logos/all/LogoDunaDialColor.js';
+import DunaDialSinBlockBlack from './logos/all/LogoDunaDialSinBlockBlack.js';
 import DunaDialSinBlockWhite from './logos/all/LogoDunaDialSinBlockWhite.js';
 
 import PaulaWhite from './logos/all/LogoPaulaWhite.js';
@@ -273,6 +273,8 @@ import PaulaCocinaWhite from './logos/all/LogoPaulaCocinaWhite.js';
 import PaulaCocinaBlack from './logos/all/LogoPaulaCocinaBlack.js';
 
 const Logos = {
+	DunaDialSinBlockBlack,
+	DunaDialSinBlockWhite,
 	PaulaCocinaWhite,
 	PaulaCocinaBlack,
 	MTnewsWhite,
