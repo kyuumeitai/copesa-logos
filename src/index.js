@@ -8,7 +8,10 @@ import Glamorama from './logos/Glamorama';
 import Grupocopesa from './logos/Grupocopesa';
 import GrupocopesaAlt from './logos/GrupocopesaAlt';
 import Icarito from './logos/Icarito';
-import LaboratorioDeContenidosDeMarca from './logos/LaboratorioDeContenidosDeMarca';
+import LaboratorioDeContenidosDeMarca from './logos/new/LaboratorioFull';
+import LaboratorioSmall from './logos/new/LaboratorioSmall'
+import LaboratorioSmallCircle from './logos/new/LaboratorioCircleBn'
+import LaboratorioFullCircle from './logos/new/LaboratorioCircleBnFull'
 import Lacuarta from './logos/Lacuarta';
 import LahoraTubuenanoticia from './logos/LahoraTubuenanoticia';
 import LtEldeportivo from './logos/LtEldeportivo';
@@ -29,7 +32,7 @@ import Zero from './logos/Zero';
 import ZeroAlt from './logos/ZeroAlt';
 import Lahora from './logos/Lahora';
 import CronicaStereo from './logos/CronicaStereo';
-import LaterceraPm from './logos/LaterceraPm';
+import LaterceraPm from './logos/new/LtPm';
 import LtPulsoTrader from './logos/LtPulsoTrader';
 import PulsoTrader from './logos/PulsoTrader';
 
@@ -272,7 +275,29 @@ import MTnewsBlack from './logos/all/LogoMTnewsBlack.js';
 import PaulaCocinaWhite from './logos/all/LogoPaulaCocinaWhite.js';
 import PaulaCocinaBlack from './logos/all/LogoPaulaCocinaBlack.js';
 
+import ConexionChina from './logos/new/ConexionChina'
+import LaTerceraAM from './logos/new/LtAm'
+import LaTerceraPM from './logos/new/LtPm'
+import CoronaVirus from './logos/new/LtCoronaVirus'
+import LtDomingo from './logos/new/LtDomingo'
+import FactChecking from './logos/new/LtFactChecking'
+import PiensaDigital from './logos/new/PiensaDigital'
+import Practico from './logos/new/Practico'
+import Reconstitucion from './logos/new/Reconstitucion'
+import ReconstitucionSmall from './logos/new/ReconstitucionBox'
+
 const Logos = {
+ 	ConexionChina,
+ 	LaTerceraAM,
+ 	LaTerceraPM,
+ 	CoronaVirus,
+ 	LtDomingo,
+ 	FactChecking,
+ 	PiensaDigital,
+ 	Practico,
+ 	Reconstitucion,
+ 	ReconstitucionSmall,
+
 	DunaDialSinBlockBlack,
 	DunaDialSinBlockWhite,
 	PaulaCocinaWhite,
@@ -538,6 +563,17 @@ const Logos = {
 
 export default Logos;
 export {
+	ConexionChina,
+	LaTerceraAM,
+	LaTerceraPM,
+	CoronaVirus,
+	LtDomingo,
+	FactChecking,
+	PiensaDigital,
+	Practico,
+	Reconstitucion,
+	ReconstitucionSmall,
+	
 	PaulaWhite,
 	PaulaBlack,
 	PaulaCocinaWhite,
