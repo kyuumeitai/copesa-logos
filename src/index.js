@@ -1,6 +1,4 @@
-import React from 'react'
-import styles from './styles.module.css'
+import Laboratorio from "./logos/Laboratorio";
+import LaTercera from "./logos/LaTercera";
 
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
-}
+export { Laboratorio, LaTercera };
