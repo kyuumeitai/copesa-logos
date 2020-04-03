@@ -6,7 +6,7 @@ import Full from "./Full";
 import Small from "./Small";
 
 const Laboratorio = ({ version = "full" }, rest) => {
-  console.log(">>>Version:", version, Circle);
+  console.log(">>>Version:", version, Circle, rest);
   switch (version) {
     case "circle":
       return <Circle {...rest} />;

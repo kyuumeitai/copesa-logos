@@ -108,7 +108,7 @@ function SvgLaboratorioSmall(props) {
 var Laboratorio = function Laboratorio(_ref, rest) {
   var _ref$version = _ref.version,
       version = _ref$version === void 0 ? "full" : _ref$version;
-  console.log(">>>Version:", version, SvgLaboratorioCircleBnFull);
+  console.log(">>>Version:", version, SvgLaboratorioCircleBnFull, rest);
 
   switch (version) {
     case "circle":
