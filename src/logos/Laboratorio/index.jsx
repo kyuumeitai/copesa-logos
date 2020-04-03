@@ -5,21 +5,16 @@ import CircleSmall from "./CircleSmall";
 import Full from "./Full";
 import Small from "./Small";
 
-const Laboratorio = ({ version = "full" }) => {
+const Laboratorio = ({ version = "full", ...rest }) => {
   switch (version) {
     case "circle":
-      return Circle;
-      break;
+      return <Circle {...rest} />;
     case "circle-small":
-      return CircleSmall;
-      break;
+      return <CircleSmall {...rest} />;
     case "small":
-      return Small;
-      break;
-
+      return <Small {...rest} />;
     default:
-      return Full;
-      break;
+      return <Full {...rest} />;
   }
 };
 
