@@ -5,20 +5,17 @@ import CircleSmall from "./CircleSmall";
 import Full from "./Full";
 import Small from "./Small";
 
-const Laboratorio = ({ version = "full" }) => {
+const Laboratorio = ({ version = "full" }, rest) => {
   console.log(">>>Version:", version, Circle);
   switch (version) {
     case "circle":
-      console.log(">>>Inside Circle");
-      return <Circle />;
+      return <Circle {...rest} />;
     case "circle-small":
-      return <CircleSmall />;
+      return <CircleSmall {...rest} />;
     case "small":
-      return <Small />;
-    case "test":
-      return <h2>hey!</h2>;
+      return <Small {...rest} />;
     default:
-      return <Full />;
+      return <Full {...rest} />;
   }
 };
 

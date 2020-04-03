@@ -104,27 +104,23 @@ function SvgLaboratorioSmall(props) {
   }))));
 }
 
-var Laboratorio = function Laboratorio(_ref) {
+var Laboratorio = function Laboratorio(_ref, rest) {
   var _ref$version = _ref.version,
       version = _ref$version === void 0 ? "full" : _ref$version;
   console.log(">>>Version:", version, SvgLaboratorioCircleBnFull);
 
   switch (version) {
     case "circle":
-      console.log(">>>Inside Circle");
-      return /*#__PURE__*/React__default.createElement(SvgLaboratorioCircleBnFull, null);
+      return /*#__PURE__*/React__default.createElement(SvgLaboratorioCircleBnFull, rest);
 
     case "circle-small":
-      return /*#__PURE__*/React__default.createElement(SvgLaboratorioCircleBn, null);
+      return /*#__PURE__*/React__default.createElement(SvgLaboratorioCircleBn, rest);
 
     case "small":
-      return /*#__PURE__*/React__default.createElement(SvgLaboratorioSmall, null);
-
-    case "test":
-      return /*#__PURE__*/React__default.createElement("h2", null, "hey!");
+      return /*#__PURE__*/React__default.createElement(SvgLaboratorioSmall, rest);
 
     default:
-      return /*#__PURE__*/React__default.createElement(SvgLaboratorioFull, null);
+      return /*#__PURE__*/React__default.createElement(SvgLaboratorioFull, rest);
   }
 };
 
