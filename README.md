@@ -1,13 +1,13 @@
-# copesa-logos
+# latercera-logos
 
-> Logos Copesa
+> Logos de La Tercera y copesa
 
-[![NPM](https://img.shields.io/npm/v/copesa-logos.svg)](https://www.npmjs.com/package/copesa-logos) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/latercera-logos.svg)](https://www.npmjs.com/package/latercera-logos) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save copesa-logos
+npm install --save latercera-logos
 ```
 
 ## Usage
@@ -15,13 +15,12 @@ npm install --save copesa-logos
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'copesa-logos'
+import MyComponent from 'latercera-logos'
+import 'latercera-logos/dist/index.css'
 
 class Example extends Component {
-  render () {
-    return (
-      <MyComponent />
-    )
+  render() {
+    return <MyComponent />
   }
 }
 ```
