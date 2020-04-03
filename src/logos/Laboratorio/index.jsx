@@ -9,6 +9,7 @@ const Laboratorio = ({ version = "full" }) => {
   console.log(">>>Version:", version);
   switch (version) {
     case "circle":
+      console.log(">>>Inside Circle");
       return Circle;
       break;
     case "circle-small":
