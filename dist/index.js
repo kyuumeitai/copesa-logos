@@ -111,6 +111,7 @@ var Laboratorio = function Laboratorio(_ref) {
 
   switch (version) {
     case "circle":
+      console.log(">>>Inside Circle");
       return SvgLaboratorioCircleBnFull;
 
     case "circle-small":
