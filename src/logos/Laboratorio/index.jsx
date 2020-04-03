@@ -10,17 +10,17 @@ const Laboratorio = ({ version = "full" }) => {
   switch (version) {
     case "circle":
       console.log(">>>Inside Circle");
-      return Circle;
+      return <Circle />;
       break;
     case "circle-small":
-      return CircleSmall;
+      return <CircleSmall />;
       break;
     case "small":
-      return Small;
+      return <Small />;
       break;
 
     default:
-      return Full;
+      return <Full />;
       break;
   }
 };
