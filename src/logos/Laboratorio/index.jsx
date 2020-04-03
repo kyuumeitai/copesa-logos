@@ -15,6 +15,8 @@ const Laboratorio = ({ version = "full" }) => {
       return <CircleSmall />;
     case "small":
       return <Small />;
+    case "test":
+      return <h2>hey!</h2>;
     default:
       return <Full />;
   }

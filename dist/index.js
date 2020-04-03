@@ -120,6 +120,9 @@ var Laboratorio = function Laboratorio(_ref) {
     case "small":
       return /*#__PURE__*/React__default.createElement(SvgLaboratorioSmall, null);
 
+    case "test":
+      return /*#__PURE__*/React__default.createElement("h2", null, "hey!");
+
     default:
       return /*#__PURE__*/React__default.createElement(SvgLaboratorioFull, null);
   }
