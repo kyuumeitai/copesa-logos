@@ -22,6 +22,7 @@ function _extends() {
 }
 
 function SvgLaboratorioCircleBnFull(props) {
+  console.log("props!", props);
   return /*#__PURE__*/React__default.createElement("svg", _extends({
     viewBox: "0 0 137.98 137.98"
   }, props), /*#__PURE__*/React__default.createElement("defs", null, /*#__PURE__*/React__default.createElement("style", null, ".laboratorio-circle-bn-full_svg__cls-1{fill:#fff}")), /*#__PURE__*/React__default.createElement("g", {

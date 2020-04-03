@@ -1,6 +1,7 @@
 import React from "react";
 
 function SvgLaboratorioCircleBnFull(props) {
+  console.log("props!", props);
   return (
     <svg viewBox="0 0 137.98 137.98" {...props}>
       <defs>
