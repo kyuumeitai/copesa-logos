@@ -21,6 +21,21 @@ function _extends() {
   return _extends.apply(this, arguments);
 }
 
+function _objectWithoutPropertiesLoose(source, excluded) {
+  if (source == null) return {};
+  var target = {};
+  var sourceKeys = Object.keys(source);
+  var key, i;
+
+  for (i = 0; i < sourceKeys.length; i++) {
+    key = sourceKeys[i];
+    if (excluded.indexOf(key) >= 0) continue;
+    target[key] = source[key];
+  }
+
+  return target;
+}
+
 function SvgLaboratorioCircleBnFull(props) {
   console.log("props!", props);
   return /*#__PURE__*/React__default.createElement("svg", _extends({
@@ -105,9 +120,11 @@ function SvgLaboratorioSmall(props) {
   }))));
 }
 
-var Laboratorio = function Laboratorio(_ref, rest) {
+var Laboratorio = function Laboratorio(_ref) {
   var _ref$version = _ref.version,
-      version = _ref$version === void 0 ? "full" : _ref$version;
+      version = _ref$version === void 0 ? "full" : _ref$version,
+      rest = _objectWithoutPropertiesLoose(_ref, ["version"]);
+
   console.log(">>>Version:", version, SvgLaboratorioCircleBnFull, rest);
 
   switch (version) {

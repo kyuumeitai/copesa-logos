@@ -5,7 +5,7 @@ import CircleSmall from "./CircleSmall";
 import Full from "./Full";
 import Small from "./Small";
 
-const Laboratorio = ({ version = "full" }, rest) => {
+const Laboratorio = ({ version = "full", ...rest }) => {
   console.log(">>>Version:", version, Circle, rest);
   switch (version) {
     case "circle":
