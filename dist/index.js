@@ -112,16 +112,16 @@ var Laboratorio = function Laboratorio(_ref) {
   switch (version) {
     case "circle":
       console.log(">>>Inside Circle");
-      return SvgLaboratorioCircleBnFull;
+      return /*#__PURE__*/React__default.createElement(SvgLaboratorioCircleBnFull, null);
 
     case "circle-small":
-      return SvgLaboratorioCircleBn;
+      return /*#__PURE__*/React__default.createElement(SvgLaboratorioCircleBn, null);
 
     case "small":
-      return SvgLaboratorioSmall;
+      return /*#__PURE__*/React__default.createElement(SvgLaboratorioSmall, null);
 
     default:
-      return SvgLaboratorioFull;
+      return /*#__PURE__*/React__default.createElement(SvgLaboratorioFull, null);
   }
 };
 
