@@ -16,7 +16,7 @@ const SvgLatercera = props => {
   }
 
   return (
-    <svg viewBox="0 0 856.46 110.24" {...props}>
+    <svg viewBox="0 0 856.46 110.24" width="856.46" height="110.24" {...props}>
       <g data-name="Layer 2">
         <g data-name="Capa 1">
           <path fill={colorschema.isotypebox} d="M0 0h115.24v110.24H0z" />
