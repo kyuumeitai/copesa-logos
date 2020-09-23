@@ -1,6 +1,6 @@
 import React from "react";
 
-const SvgLatercera = props => {
+const LaTercera = props => {
   const { red = "#91252f", white = "white", schema = "common" } = props;
 
   const colorschema = {
@@ -38,4 +38,4 @@ const SvgLatercera = props => {
   );
 };
 
-export default SvgLatercera;
+export default LaTercera;
