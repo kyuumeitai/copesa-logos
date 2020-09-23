@@ -1,17 +1,17 @@
 import React from "react";
 
 const LaTerceraAM = props => {
-  const { blue = "#91252f", white = "white", schema = "common" } = props;
+  const { blue = "#18283f", white = "white", schema = "common" } = props;
 
   const colorschema = {
-    isotypebox: blue,
-    isotypeletter: white,
+    isotypebox: white,
+    isotypeletter: blue,
     letters: blue
   };
 
   if (schema === "light") {
-    colorschema.isotypebox = white;
-    colorschema.isotypeletter = blue;
+    colorschema.isotypebox = blue;
+    colorschema.isotypeletter = white;
     colorschema.letters = white;
   }
 
@@ -35,7 +35,7 @@ const LaTerceraAM = props => {
             height="42.8"
           />
           <path
-            fill={colorschema.letters}
+            fill={colorschema.isotypeletter}
             d="M0,8.5v46.2h48.3V8.5H0z M23.7,46.3H5.9V16.9h4.6v25.3h13.2V46.3z M42.4,21h-8.7v25.3h-4.6V21h-8.7v-4.1
 			h22.1L42.4,21L42.4,21z"
           />
