@@ -164,7 +164,9 @@ var SvgLatercera = function SvgLatercera(props) {
   }
 
   return /*#__PURE__*/React__default.createElement("svg", _extends({
-    viewBox: "0 0 856.46 110.24"
+    viewBox: "0 0 856.46 110.24",
+    width: "856.46",
+    height: "110.24"
   }, props), /*#__PURE__*/React__default.createElement("g", {
     "data-name": "Layer 2"
   }, /*#__PURE__*/React__default.createElement("g", {
