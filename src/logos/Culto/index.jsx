@@ -21,7 +21,7 @@ const Culto = props => {
   }
 
   return (
-    <svg x="0px" y="0px" viewBox="0 0 526.5 203.8">
+    <svg x="0px" y="0px" viewBox="0 0 526.5 203.8" {...props}>
       <rect
         x="0.9"
         y="43.3"

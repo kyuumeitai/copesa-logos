@@ -22,7 +22,7 @@ const Mouse = props => {
   }
 
   return (
-    <svg x="0px" y="0px" viewBox="0 0 335.2 66.2">
+    <svg x="0px" y="0px" viewBox="0 0 335.2 66.2" {...props}>
       <g>
         <path
           fill={colorschema.color1}

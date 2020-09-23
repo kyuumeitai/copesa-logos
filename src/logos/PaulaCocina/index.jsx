@@ -16,7 +16,7 @@ const PaulaCocina = props => {
   }
 
   return (
-    <svg x="0px" y="0px" viewBox="0 0 362.9 57.4">
+    <svg x="0px" y="0px" viewBox="0 0 362.9 57.4" {...props}>
       <g fill={colorschema.letters}>
         <g>
           <path

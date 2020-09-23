@@ -21,7 +21,7 @@ const QuePasa = props => {
   }
 
   return (
-    <svg x="0px" y="0px" viewBox="0 0 545.9 341.5">
+    <svg x="0px" y="0px" viewBox="0 0 545.9 341.5" {...props}>
       <g fill={colorschema.letters}>
         <path
           d="M362.1,212.1c2.2-2.5,3.6-9.7,3.6-16.6c0-15.8,0.4-60.5,0-75.6c0-5.8-1.4-10.8-5.8-12.2c-3.4-1.3-6.9-2.2-10.4-2.9

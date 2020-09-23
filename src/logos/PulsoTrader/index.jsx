@@ -16,7 +16,7 @@ const PulsoTrader = props => {
   }
 
   return (
-    <svg x="0px" y="0px" viewBox="0 0 784 158.5">
+    <svg x="0px" y="0px" viewBox="0 0 784 158.5" {...props}>
       <g fill={colorschema.letters}>
         <path d="M394.7,1.2v4.6h27.9v152h6.4V5.9h28.1V0.2h-62.4V1.2z" />
         <path

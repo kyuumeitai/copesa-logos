@@ -21,7 +21,7 @@ const Practico = props => {
   }
 
   return (
-    <svg x="0px" y="0px" viewBox="0 0 680.1 194.8">
+    <svg x="0px" y="0px" viewBox="0 0 680.1 194.8" {...props}>
       <rect
         fill={colorschema.isotypebackground}
         y="0"

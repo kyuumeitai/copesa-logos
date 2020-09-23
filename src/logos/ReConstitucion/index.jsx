@@ -21,7 +21,7 @@ const ReConstitucion = props => {
   }
 
   return (
-    <svg x="0px" y="0px" viewBox="0 0 559.1 55.6">
+    <svg x="0px" y="0px" viewBox="0 0 559.1 55.6" {...props}>
       <g>
         <path
           fill={colorschema.isotypeletter}

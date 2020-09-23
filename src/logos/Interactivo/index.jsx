@@ -19,7 +19,7 @@ const Interactivo = props => {
   }
 
   return (
-    <svg x="0px" y="0px" viewBox="0 0 328 53">
+    <svg x="0px" y="0px" viewBox="0 0 328 53" {...props}>
       <g>
         <path fill={colorschema.altletters} d="M0,2.9v11.6h12.1V2.9H0z" />
         <rect

@@ -23,7 +23,7 @@ const LaTerceraDomingo = props => {
   }
 
   return (
-    <svg x="0px" y="0px" viewBox="0 0 2066.7 142.8">
+    <svg x="0px" y="0px" viewBox="0 0 2066.7 142.8" {...props}>
       <g>
         <g fill={colorschema.letters}>
           <polygon points="399,22.1 358.1,22.1 358.1,2.8 461.8,2.8 461.8,22.1 420.8,22.1 420.8,140.9 399,140.9 		" />

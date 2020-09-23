@@ -21,7 +21,7 @@ const MasDeco = props => {
   }
 
   return (
-    <svg x="0px" y="0px" viewBox="0 0 616.3 124">
+    <svg x="0px" y="0px" viewBox="0 0 616.3 124" {...props}>
       <g fill={colorschema.letters}>
         <polygon
           points="46.5,8.3 0,8.3 0,122.3 33.5,122.3 33.5,80.4 32.7,61.1 33,61.1 48.5,105.5 73.7,105.5 89.3,61.1 89.6,61.1
