@@ -21,7 +21,7 @@ const FactChecking = props => {
   }
 
   return (
-    <svg x="0px" y="0px" viewBox="0 0 538 72">
+    <svg x="0px" y="0px" viewBox="0 0 538 72" {...props}>
       <g>
         <g>
           <rect

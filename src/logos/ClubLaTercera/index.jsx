@@ -21,7 +21,7 @@ const ClubLaTercera = props => {
   }
 
   return (
-    <svg x="0px" y="0px" viewBox="0 0 1431.7 507.7">
+    <svg x="0px" y="0px" viewBox="0 0 1431.7 507.7" {...props}>
       <g>
         <g fill={colorschema.letters}>
           <polyline

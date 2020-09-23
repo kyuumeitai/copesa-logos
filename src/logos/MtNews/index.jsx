@@ -16,13 +16,7 @@ const MtNews = props => {
   }
 
   return (
-    <svg
-      version="1.1"
-      x="0px"
-      y="0px"
-      viewBox="0 0 436.2 78.3"
-      enable-background="new 0 0 436.2 78.3"
-    >
+    <svg version="1.1" x="0px" y="0px" viewBox="0 0 436.2 78.3" {...props}>
       <g fill={colorschema.letters}>
         <path
           d="M146.5,77.2h2.4V21.6h-2.4V77.2z M208.6,77.2V1.1h-2.4v72.2l-48.6-60.8l-1.1,2.2l50,62.6L208.6,77.2

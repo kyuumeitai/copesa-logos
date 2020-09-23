@@ -21,7 +21,7 @@ const Coronavirus = props => {
   }
 
   return (
-    <svg x="0px" y="0px" viewBox="0 0 530.4 120.5">
+    <svg x="0px" y="0px" viewBox="0 0 530.4 120.5" {...props}>
       <path
         fill={colorschema.isotypebox}
         d="M523.8,53.7c-3,0-5.5,2-6.3,4.7h-9.7c-0.4-9-4-17.2-9.8-23.5l6.8-6.8c1,0.5,2,0.8,3.1,0.8

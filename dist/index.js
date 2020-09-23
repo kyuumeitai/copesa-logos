@@ -3,6 +3,39 @@ function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'defau
 var React = require('react');
 var React__default = _interopDefault(React);
 
+function _extends() {
+  _extends = Object.assign || function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+
+    return target;
+  };
+
+  return _extends.apply(this, arguments);
+}
+
+function _objectWithoutPropertiesLoose(source, excluded) {
+  if (source == null) return {};
+  var target = {};
+  var sourceKeys = Object.keys(source);
+  var key, i;
+
+  for (i = 0; i < sourceKeys.length; i++) {
+    key = sourceKeys[i];
+    if (excluded.indexOf(key) >= 0) continue;
+    target[key] = source[key];
+  }
+
+  return target;
+}
+
 var ClubLaTercera = function ClubLaTercera(props) {
   var _props$dark = props.dark,
       dark = _props$dark === void 0 ? "#000000" : _props$dark,
@@ -24,11 +57,11 @@ var ClubLaTercera = function ClubLaTercera(props) {
     colorschema.letters = light;
   }
 
-  return /*#__PURE__*/React__default.createElement("svg", {
+  return /*#__PURE__*/React__default.createElement("svg", _extends({
     x: "0px",
     y: "0px",
     viewBox: "0 0 1431.7 507.7"
-  }, /*#__PURE__*/React__default.createElement("g", null, /*#__PURE__*/React__default.createElement("g", {
+  }, props), /*#__PURE__*/React__default.createElement("g", null, /*#__PURE__*/React__default.createElement("g", {
     fill: colorschema.letters
   }, /*#__PURE__*/React__default.createElement("polyline", {
     points: "704.7,390.5 664.9,390.5 664.9,371.8 765.6,371.8 765.6,390.5 725.8,390.5 725.8,505.9 704.7,505.9 704.7,390.5 \t\t"
@@ -87,11 +120,11 @@ var Coronavirus = function Coronavirus(props) {
     colorschema.letters = light;
   }
 
-  return /*#__PURE__*/React__default.createElement("svg", {
+  return /*#__PURE__*/React__default.createElement("svg", _extends({
     x: "0px",
     y: "0px",
     viewBox: "0 0 530.4 120.5"
-  }, /*#__PURE__*/React__default.createElement("path", {
+  }, props), /*#__PURE__*/React__default.createElement("path", {
     fill: colorschema.isotypebox,
     d: "M523.8,53.7c-3,0-5.5,2-6.3,4.7h-9.7c-0.4-9-4-17.2-9.8-23.5l6.8-6.8c1,0.5,2,0.8,3.1,0.8 c1.8,0,3.4-0.7,4.7-1.9c1.2-1.2,1.9-2.9,1.9-4.7c0-1.8-0.7-3.4-1.9-4.7c-2.5-2.5-6.8-2.5-9.3,0c-1.2,1.2-1.9,2.9-1.9,4.7 c0,1.1,0.3,2.2,0.8,3.1l-6.8,6.8c-6.3-5.7-14.5-9.3-23.5-9.8v-9.7c2.7-0.8,4.7-3.3,4.7-6.3c0-3.6-3-6.6-6.6-6.6 c-3.6,0-6.6,3-6.6,6.6c0,3,2,5.5,4.7,6.3v9.7c-9,0.4-17.2,4-23.5,9.8l-6.8-6.8c0.5-1,0.8-2,0.8-3.1c0-1.8-0.7-3.4-1.9-4.7 c-2.5-2.5-6.8-2.5-9.3,0c-1.2,1.2-1.9,2.9-1.9,4.7c0,1.8,0.7,3.4,1.9,4.7c1.2,1.2,2.9,1.9,4.7,1.9c1.1,0,2.2-0.3,3.1-0.8l6.8,6.8 c-5.7,6.3-9.3,14.5-9.7,23.5h-9.7c-0.8-2.7-3.3-4.7-6.3-4.7c-3.6,0-6.6,3-6.6,6.6c0,3.6,3,6.6,6.6,6.6c3,0,5.5-2,6.3-4.7h9.7 c0.4,9,4,17.2,9.7,23.5l-6.9,6.9c-2.5-1.3-5.8-1-7.8,1.1c-1.2,1.2-1.9,2.9-1.9,4.7c0,1.8,0.7,3.4,1.9,4.7c1.2,1.2,2.9,1.9,4.7,1.9 c1.8,0,3.4-0.7,4.7-1.9c1.2-1.2,1.9-2.9,1.9-4.7c0-1.1-0.3-2.2-0.8-3.1l6.8-6.8c6.3,5.7,14.5,9.3,23.5,9.8v9.7 c-2.7,0.8-4.7,3.3-4.7,6.3c0,3.6,3,6.6,6.6,6.6c3.6,0,6.6-3,6.6-6.6c0-3-2-5.5-4.7-6.3V98c9-0.4,17.2-4,23.5-9.8l6.8,6.8 c-1.4,2.5-1,5.7,1.1,7.8c1.2,1.2,2.9,1.9,4.7,1.9c1.8,0,3.4-0.7,4.7-1.9c1.2-1.2,1.9-2.9,1.9-4.7c0-1.8-0.7-3.4-1.9-4.7 c-2-2-5.3-2.4-7.8-1.1l-6.9-6.9c5.7-6.3,9.3-14.5,9.8-23.5h9.7c0.8,2.7,3.3,4.7,6.3,4.7c3.6,0,6.6-3,6.6-6.6 C530.4,56.6,527.4,53.7,523.8,53.7 M416.4,63.2c-1.6,0-2.9-1.3-2.9-2.9c0-1.6,1.3-2.9,2.9-2.9s2.9,1.3,2.9,2.9 C419.3,61.9,418,63.2,416.4,63.2 M506,20.3c0.5-0.5,1.3-0.8,2-0.8c0.8,0,1.5,0.3,2,0.8c0.5,0.5,0.8,1.3,0.8,2c0,0.8-0.3,1.5-0.8,2 c-1.1,1.1-3,1.1-4.1,0c-0.5-0.5-0.8-1.3-0.8-2C505.2,21.5,505.5,20.8,506,20.3 M467.2,6.6c0-1.6,1.3-2.9,2.9-2.9 c1.6,0,2.9,1.3,2.9,2.9c0,1.6-1.3,2.9-2.9,2.9C468.5,9.5,467.2,8.2,467.2,6.6 M430.1,24.4c-0.5-0.5-0.8-1.3-0.8-2 c0-0.8,0.3-1.5,0.8-2c0.5-0.5,1.3-0.8,2-0.8c0.8,0,1.5,0.3,2,0.8c0.5,0.5,0.8,1.3,0.8,2c0,0.8-0.3,1.5-0.8,2 C433.1,25.4,431.2,25.4,430.1,24.4 M434.2,100.3c-1.1,1.1-3,1.1-4.1,0c-0.5-0.5-0.8-1.3-0.8-2c0-0.8,0.3-1.5,0.8-2 c0.5-0.5,1.3-0.8,2-0.8c0.8,0,1.5,0.3,2,0.8c0.5,0.5,0.8,1.3,0.8,2C435,99,434.7,99.7,434.2,100.3 M473,113.9c0,1.6-1.3,2.9-2.9,2.9 c-1.6,0-2.9-1.3-2.9-2.9c0-1.6,1.3-2.9,2.9-2.9C471.7,111,473,112.3,473,113.9 M510.1,96.2c0.5,0.5,0.8,1.3,0.8,2 c0,0.8-0.3,1.5-0.8,2c-1.1,1.1-3,1.1-4.1,0c-1.1-1.1-1.1-3,0-4.1c0.5-0.5,1.3-0.8,2-0.8C508.8,95.3,509.6,95.6,510.1,96.2 M470.1,94.4c-18.8,0-34.1-15.3-34.1-34.1c0-18.8,15.3-34.1,34.1-34.1c18.8,0,34.1,15.3,34.1,34.1C504.2,79.1,488.9,94.4,470.1,94.4 M523.8,63.2c-1.6,0-2.9-1.3-2.9-2.9c0-1.6,1.3-2.9,2.9-2.9c1.6,0,2.9,1.3,2.9,2.9C526.7,61.9,525.4,63.2,523.8,63.2"
   }), /*#__PURE__*/React__default.createElement("path", {
@@ -163,11 +196,11 @@ var Culto = function Culto(props) {
     colorschema.letters = cerulean;
   }
 
-  return /*#__PURE__*/React__default.createElement("svg", {
+  return /*#__PURE__*/React__default.createElement("svg", _extends({
     x: "0px",
     y: "0px",
     viewBox: "0 0 526.5 203.8"
-  }, /*#__PURE__*/React__default.createElement("rect", {
+  }, props), /*#__PURE__*/React__default.createElement("rect", {
     x: "0.9",
     y: "43.3",
     fill: colorschema.isotypebackground,
@@ -231,11 +264,11 @@ var Duna = function Duna(props) {
     colorschema.letters = light;
   }
 
-  return /*#__PURE__*/React__default.createElement("svg", {
+  return /*#__PURE__*/React__default.createElement("svg", _extends({
     x: "0px",
     y: "0px",
     viewBox: "0 0 531.4 114.3"
-  }, /*#__PURE__*/React__default.createElement("g", {
+  }, props), /*#__PURE__*/React__default.createElement("g", {
     fill: colorschema.letters
   }, /*#__PURE__*/React__default.createElement("path", {
     d: "M48.9,0c27.2,0,42.4,2.6,54.2,9.8c14.9,9.2,23.4,25.3,23.4,44.3c0,23.3-12.8,42.3-34.3,51.2c-10.4,4.1-26.3,6.7-43.3,6.7H0 V0H48.9z M18.9,101.4h30.9c16.4,0,30.1-3.1,38.7-9c11.4-8.1,17.6-21.1,17.6-37.7c0-18.1-7.6-31.9-21.2-38.7 c-8.5-4.4-15.3-5.3-35.1-5.3H18.9V101.4z"
@@ -273,11 +306,11 @@ var FactChecking = function FactChecking(props) {
     colorschema.letters = light;
   }
 
-  return /*#__PURE__*/React__default.createElement("svg", {
+  return /*#__PURE__*/React__default.createElement("svg", _extends({
     x: "0px",
     y: "0px",
     viewBox: "0 0 538 72"
-  }, /*#__PURE__*/React__default.createElement("g", null, /*#__PURE__*/React__default.createElement("g", null, /*#__PURE__*/React__default.createElement("rect", {
+  }, props), /*#__PURE__*/React__default.createElement("g", null, /*#__PURE__*/React__default.createElement("g", null, /*#__PURE__*/React__default.createElement("rect", {
     fill: colorschema.isotypebackground,
     x: "10.5",
     y: "6.8",
@@ -347,11 +380,11 @@ var Finde = function Finde(props) {
     colorschema.letters = light;
   }
 
-  return /*#__PURE__*/React__default.createElement("svg", {
+  return /*#__PURE__*/React__default.createElement("svg", _extends({
     x: "0px",
     y: "0px",
     viewBox: "0 0 340 127.1"
-  }, /*#__PURE__*/React__default.createElement("g", {
+  }, props), /*#__PURE__*/React__default.createElement("g", {
     fill: colorschema.letters
   }, /*#__PURE__*/React__default.createElement("path", {
     d: "M12,70.9H0V52h12V27.9C12,9.4,20.7,0,38.4,0c10.1,0,16.8,3,22.1,9.1L48.2,24.3c-1.7-2-3.7-3.9-7.2-3.9c-3.7,0-6.2,2-6.2,7.2 V52h19.4v18.8H34.8v52.9H12V70.9z"
@@ -387,11 +420,11 @@ var Interactivo = function Interactivo(props) {
     colorschema.letters = light;
   }
 
-  return /*#__PURE__*/React__default.createElement("svg", {
+  return /*#__PURE__*/React__default.createElement("svg", _extends({
     x: "0px",
     y: "0px",
     viewBox: "0 0 328 53"
-  }, /*#__PURE__*/React__default.createElement("g", null, /*#__PURE__*/React__default.createElement("path", {
+  }, props), /*#__PURE__*/React__default.createElement("g", null, /*#__PURE__*/React__default.createElement("path", {
     fill: colorschema.altletters,
     d: "M0,2.9v11.6h12.1V2.9H0z"
   }), /*#__PURE__*/React__default.createElement("rect", {
@@ -426,39 +459,6 @@ var Interactivo = function Interactivo(props) {
     d: "M244.4,9c0-1.7-5.4-2.9-4.1-4.2c2.4-2.4,6.4-2.4,8.8,0c0,0,0,0,0,0c1.2,1.2,1.9,2.8,1.8,4.4 c0,1.7-0.6,3.3-1.8,4.4c-2.4,2.4-6.4,2.4-8.8,0c0,0,0,0,0,0C239,12.4,244.4,10.7,244.4,9z"
   }));
 };
-
-function _extends() {
-  _extends = Object.assign || function (target) {
-    for (var i = 1; i < arguments.length; i++) {
-      var source = arguments[i];
-
-      for (var key in source) {
-        if (Object.prototype.hasOwnProperty.call(source, key)) {
-          target[key] = source[key];
-        }
-      }
-    }
-
-    return target;
-  };
-
-  return _extends.apply(this, arguments);
-}
-
-function _objectWithoutPropertiesLoose(source, excluded) {
-  if (source == null) return {};
-  var target = {};
-  var sourceKeys = Object.keys(source);
-  var key, i;
-
-  for (i = 0; i < sourceKeys.length; i++) {
-    key = sourceKeys[i];
-    if (excluded.indexOf(key) >= 0) continue;
-    target[key] = source[key];
-  }
-
-  return target;
-}
 
 function SvgLaboratorioCircleBnFull(props) {
   return /*#__PURE__*/React__default.createElement("svg", _extends({
@@ -727,11 +727,11 @@ var LaTerceraPM = function LaTerceraPM(props) {
     colorschema.letters = light;
   }
 
-  return /*#__PURE__*/React__default.createElement("svg", {
+  return /*#__PURE__*/React__default.createElement("svg", _extends({
     x: "0px",
     y: "0px",
     viewBox: "0 0 485.9 86.5"
-  }, /*#__PURE__*/React__default.createElement("rect", {
+  }, props), /*#__PURE__*/React__default.createElement("rect", {
     x: "1.3",
     y: "10.3",
     fill: colorschema.isotypebox,
@@ -835,11 +835,11 @@ var LaTerceraDomingo = function LaTerceraDomingo(props) {
     colorschema.altletters = red;
   }
 
-  return /*#__PURE__*/React__default.createElement("svg", {
+  return /*#__PURE__*/React__default.createElement("svg", _extends({
     x: "0px",
     y: "0px",
     viewBox: "0 0 2066.7 142.8"
-  }, /*#__PURE__*/React__default.createElement("g", null, /*#__PURE__*/React__default.createElement("g", {
+  }, props), /*#__PURE__*/React__default.createElement("g", null, /*#__PURE__*/React__default.createElement("g", {
     fill: colorschema.letters
   }, /*#__PURE__*/React__default.createElement("polygon", {
     points: "399,22.1 358.1,22.1 358.1,2.8 461.8,2.8 461.8,22.1 420.8,22.1 420.8,140.9 399,140.9 \t\t"
@@ -910,11 +910,11 @@ var MasDeco = function MasDeco(props) {
     colorschema.letters = light;
   }
 
-  return /*#__PURE__*/React__default.createElement("svg", {
+  return /*#__PURE__*/React__default.createElement("svg", _extends({
     x: "0px",
     y: "0px",
     viewBox: "0 0 616.3 124"
-  }, /*#__PURE__*/React__default.createElement("g", {
+  }, props), /*#__PURE__*/React__default.createElement("g", {
     fill: colorschema.letters
   }, /*#__PURE__*/React__default.createElement("polygon", {
     points: "46.5,8.3 0,8.3 0,122.3 33.5,122.3 33.5,80.4 32.7,61.1 33,61.1 48.5,105.5 73.7,105.5 89.3,61.1 89.6,61.1 88.8,80.4 88.8,122.3 125.6,122.3 125.6,8.3 78.2,8.3 69.9,35.2 63.7,58 63.3,58 56.1,35.2 46.5,8.3 "
@@ -958,11 +958,11 @@ var Mouse = function Mouse(props) {
     colorschema.letters = light;
   }
 
-  return /*#__PURE__*/React__default.createElement("svg", {
+  return /*#__PURE__*/React__default.createElement("svg", _extends({
     x: "0px",
     y: "0px",
     viewBox: "0 0 335.2 66.2"
-  }, /*#__PURE__*/React__default.createElement("g", null, /*#__PURE__*/React__default.createElement("path", {
+  }, props), /*#__PURE__*/React__default.createElement("g", null, /*#__PURE__*/React__default.createElement("path", {
     fill: colorschema.color1,
     d: "M328,66.1c2.8,0.6-2.6-2.3-1.4-3c3.3-0.7,0.3-2.9-0.3-3.9c0.3-1,3.6-1.4-0.3-2.4c0.8-1,3-0.9,1.3-1.5 c-3.1-0.7,0.5-1.1,0.4-1.3c-0.3-0.4-1.3-0.7-1.4-0.7c-0.3,0-6-1.5-17.4-1.5c-4,0-20.1,10.6-12.3,10.6 C304.3,62.5,328,66.1,328,66.1"
   }), /*#__PURE__*/React__default.createElement("path", {
@@ -1083,13 +1083,12 @@ var MtNews = function MtNews(props) {
     colorschema.letters = light;
   }
 
-  return /*#__PURE__*/React__default.createElement("svg", {
+  return /*#__PURE__*/React__default.createElement("svg", _extends({
     version: "1.1",
     x: "0px",
     y: "0px",
-    viewBox: "0 0 436.2 78.3",
-    "enable-background": "new 0 0 436.2 78.3"
-  }, /*#__PURE__*/React__default.createElement("g", {
+    viewBox: "0 0 436.2 78.3"
+  }, props), /*#__PURE__*/React__default.createElement("g", {
     fill: colorschema.letters
   }, /*#__PURE__*/React__default.createElement("path", {
     d: "M146.5,77.2h2.4V21.6h-2.4V77.2z M208.6,77.2V1.1h-2.4v72.2l-48.6-60.8l-1.1,2.2l50,62.6L208.6,77.2 L208.6,77.2z"
@@ -1156,11 +1155,11 @@ var Paula = function Paula(props) {
     colorschema.letters = light;
   }
 
-  return /*#__PURE__*/React__default.createElement("svg", {
+  return /*#__PURE__*/React__default.createElement("svg", _extends({
     x: "0px",
     y: "0px",
     viewBox: "0 0 172.3 57.6"
-  }, /*#__PURE__*/React__default.createElement("g", {
+  }, props), /*#__PURE__*/React__default.createElement("g", {
     fill: colorschema.letters
   }, /*#__PURE__*/React__default.createElement("path", {
     d: "M14,18.2c2-2.8,4.8-4.6,8.5-4.6c7.8,0,12.4,6.8,12.4,16.1c0,10-7.1,16.1-15,16.1 c-1.7,0-4-0.4-5.9-1.5v9.6c0,1.8,0.4,2,3.7,2.4v1.3H0v-1.3c3.3-0.3,3.7-0.6,3.7-2.4v-34c0-2.3-0.4-2.5-3.7-2.8v-1.3l13.1-2.1H14 l-0.3,4.6H14z M14,19.7v16.6c0,6.6,2.9,7.6,4.6,7.6c4,0,5.4-5.3,5.4-13.6c0-8.5-2.8-12-6.3-12C16.4,18.2,15.2,18.8,14,19.7z"
@@ -1196,11 +1195,11 @@ var PaulaCocina = function PaulaCocina(props) {
     colorschema.letters = light;
   }
 
-  return /*#__PURE__*/React__default.createElement("svg", {
+  return /*#__PURE__*/React__default.createElement("svg", _extends({
     x: "0px",
     y: "0px",
     viewBox: "0 0 362.9 57.4"
-  }, /*#__PURE__*/React__default.createElement("g", {
+  }, props), /*#__PURE__*/React__default.createElement("g", {
     fill: colorschema.letters
   }, /*#__PURE__*/React__default.createElement("g", null, /*#__PURE__*/React__default.createElement("path", {
     "class": "st0",
@@ -1260,9 +1259,9 @@ var PiensaDigital = function PiensaDigital(props) {
     colorschema.letters = light;
   }
 
-  return /*#__PURE__*/React__default.createElement("svg", {
+  return /*#__PURE__*/React__default.createElement("svg", _extends({
     viewBox: "0 0 1064.87 580.37"
-  }, /*#__PURE__*/React__default.createElement("g", {
+  }, props), /*#__PURE__*/React__default.createElement("g", {
     fill: colorschema.letters
   }, /*#__PURE__*/React__default.createElement("g", null, /*#__PURE__*/React__default.createElement("path", {
     d: "M0,1.69H74.58A119.77,119.77,0,0,1,98,4q11.31,3,22.89,12.15,9.74,6.93,15.81,19.78,6.36,12.42,6.36,29.38,0,22.88-16.1,41.66-16.53,19.78-48.31,20.34H31.22v80.37H0ZM31.22,97.74H77.4Q94.77,97.46,103.53,87a34.79,34.79,0,0,0,8.34-22.6q0-10.3-3.39-17.38a26,26,0,0,0-9.89-10,39.16,39.16,0,0,0-22.32-5.79h-45Z"
@@ -1368,11 +1367,11 @@ var Practico = function Practico(props) {
     colorschema.letters = light;
   }
 
-  return /*#__PURE__*/React__default.createElement("svg", {
+  return /*#__PURE__*/React__default.createElement("svg", _extends({
     x: "0px",
     y: "0px",
     viewBox: "0 0 680.1 194.8"
-  }, /*#__PURE__*/React__default.createElement("rect", {
+  }, props), /*#__PURE__*/React__default.createElement("rect", {
     fill: colorschema.isotypebackground,
     y: "0",
     width: "680.1",
@@ -1403,11 +1402,11 @@ var Pulso = function Pulso(props) {
     colorschema.letters = light;
   }
 
-  return /*#__PURE__*/React__default.createElement("svg", {
+  return /*#__PURE__*/React__default.createElement("svg", _extends({
     x: "0px",
     y: "0px",
     viewBox: "0 0 390.3 160.4"
-  }, /*#__PURE__*/React__default.createElement("g", {
+  }, props), /*#__PURE__*/React__default.createElement("g", {
     fill: colorschema.letters
   }, /*#__PURE__*/React__default.createElement("polygon", {
     points: "169.6,1.8 169.6,158.9 230.3,158.9 230.3,137.4 229.1,137.4 195.7,137.4 195.7,1.8 "
@@ -1441,11 +1440,11 @@ var PulsoTrader = function PulsoTrader(props) {
     colorschema.letters = light;
   }
 
-  return /*#__PURE__*/React__default.createElement("svg", {
+  return /*#__PURE__*/React__default.createElement("svg", _extends({
     x: "0px",
     y: "0px",
     viewBox: "0 0 784 158.5"
-  }, /*#__PURE__*/React__default.createElement("g", {
+  }, props), /*#__PURE__*/React__default.createElement("g", {
     fill: colorschema.letters
   }, /*#__PURE__*/React__default.createElement("path", {
     d: "M394.7,1.2v4.6h27.9v152h6.4V5.9h28.1V0.2h-62.4V1.2z"
@@ -1491,11 +1490,11 @@ var QuePasa = function QuePasa(props) {
     colorschema.letters = light;
   }
 
-  return /*#__PURE__*/React__default.createElement("svg", {
+  return /*#__PURE__*/React__default.createElement("svg", _extends({
     x: "0px",
     y: "0px",
     viewBox: "0 0 545.9 341.5"
-  }, /*#__PURE__*/React__default.createElement("g", {
+  }, props), /*#__PURE__*/React__default.createElement("g", {
     fill: colorschema.letters
   }, /*#__PURE__*/React__default.createElement("path", {
     d: "M362.1,212.1c2.2-2.5,3.6-9.7,3.6-16.6c0-15.8,0.4-60.5,0-75.6c0-5.8-1.4-10.8-5.8-12.2c-3.4-1.3-6.9-2.2-10.4-2.9 c-4.7-1.1-6.5-2.9-6.5-5s3.6-2.5,6.5-2.5c6.8,0,41.4-2.5,43.2-2.5s2.9,3.6,2.9,11.5c0,15.5-1.1,35.3-1.1,99.4 c0,16.9,1.4,20.5,7.2,20.5c5-0.4,17.3-2.9,19.1-2.9c1.4,0.1,2.4,1.2,2.5,2.5c0,1.4-1.1,6.5-3.2,6.8c-12.6,1.8-34.2,7.2-42.1,9.4 c-2.8,1-5.7,1.6-8.6,1.8c-1.4,0-3.2-3.2-3.2-6.5c0-6.5,0.4-15.1,0.7-19.1c0-0.7-1.4-0.7-1.8-0.4c-3.2,2.5-16.6,14-26.7,19.1 c-7.3,3.8-15.5,5.6-23.8,5.4c-11.9,0-22.3-4.3-29.2-11.9c-5.8-6.1-9.4-16.2-9.4-28.8c0-29.5,0.7-68.8-0.4-81 c-0.7-9.4-0.4-11.5-11.5-15.5c-2.9-1.1-6.8-2.9-6.8-5s2.9-2.9,7.9-2.9c19.5,0,31.7-2.2,40-2.2c0.7,0,2.2,2.2,1.8,5 c-0.7,23-1.8,64.1-1.8,87.9c0,16.2,2.9,24.9,10.1,29.5c5.4,4,13.3,5.8,21.6,5.4C352,223,357.4,217.2,362.1,212.1"
@@ -1535,11 +1534,11 @@ var ReConstitucion = function ReConstitucion(props) {
     colorschema.letters = light;
   }
 
-  return /*#__PURE__*/React__default.createElement("svg", {
+  return /*#__PURE__*/React__default.createElement("svg", _extends({
     x: "0px",
     y: "0px",
     viewBox: "0 0 559.1 55.6"
-  }, /*#__PURE__*/React__default.createElement("g", null, /*#__PURE__*/React__default.createElement("path", {
+  }, props), /*#__PURE__*/React__default.createElement("g", null, /*#__PURE__*/React__default.createElement("path", {
     fill: colorschema.isotypeletter,
     d: "M0,1.3h28.6c9.5,0,15.5,6.6,15.5,14.6c0,6.2-2.5,10.9-8.4,13.3v0.1c5.7,1.6,7.4,7,7.7,12.4 c0.2,3.3,0.1,9.7,2.2,12.6H34c-1.3-3.3-1.3-8.5-1.9-12.7c-0.8-5.6-3-8-8.8-8H11.7v20.7H0V1.3z M11.7,25.3h12.8c5.3,0,8-2.2,8-7.6 c0-5.1-2.7-7.4-8-7.4H11.7V25.3z"
   }), /*#__PURE__*/React__default.createElement("path", {
