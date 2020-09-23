@@ -16,7 +16,7 @@ const Paula = props => {
   }
 
   return (
-    <svg x="0px" y="0px" viewBox="0 0 172.3 57.6">
+    <svg x="0px" y="0px" viewBox="0 0 172.3 57.6" {...props}>
       <g fill={colorschema.letters}>
         <path
           d="M14,18.2c2-2.8,4.8-4.6,8.5-4.6c7.8,0,12.4,6.8,12.4,16.1c0,10-7.1,16.1-15,16.1

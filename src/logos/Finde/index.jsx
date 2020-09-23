@@ -21,7 +21,7 @@ const Finde = props => {
   }
 
   return (
-    <svg x="0px" y="0px" viewBox="0 0 340 127.1">
+    <svg x="0px" y="0px" viewBox="0 0 340 127.1" {...props}>
       <g fill={colorschema.letters}>
         <path
           d="M12,70.9H0V52h12V27.9C12,9.4,20.7,0,38.4,0c10.1,0,16.8,3,22.1,9.1L48.2,24.3c-1.7-2-3.7-3.9-7.2-3.9c-3.7,0-6.2,2-6.2,7.2

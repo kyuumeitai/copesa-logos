@@ -21,7 +21,7 @@ const Duna = props => {
   }
 
   return (
-    <svg x="0px" y="0px" viewBox="0 0 531.4 114.3">
+    <svg x="0px" y="0px" viewBox="0 0 531.4 114.3" {...props}>
       <g fill={colorschema.letters}>
         <path
           d="M48.9,0c27.2,0,42.4,2.6,54.2,9.8c14.9,9.2,23.4,25.3,23.4,44.3c0,23.3-12.8,42.3-34.3,51.2c-10.4,4.1-26.3,6.7-43.3,6.7H0

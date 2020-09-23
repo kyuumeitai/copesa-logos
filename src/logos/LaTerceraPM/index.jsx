@@ -21,7 +21,7 @@ const LaTerceraPM = props => {
   }
 
   return (
-    <svg x="0px" y="0px" viewBox="0 0 485.9 86.5">
+    <svg x="0px" y="0px" viewBox="0 0 485.9 86.5" {...props}>
       <rect
         x="1.3"
         y="10.3"

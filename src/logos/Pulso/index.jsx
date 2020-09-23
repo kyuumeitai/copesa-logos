@@ -16,7 +16,7 @@ const Pulso = props => {
   }
 
   return (
-    <svg x="0px" y="0px" viewBox="0 0 390.3 160.4">
+    <svg x="0px" y="0px" viewBox="0 0 390.3 160.4" {...props}>
       <g fill={colorschema.letters}>
         <polygon points="169.6,1.8 169.6,158.9 230.3,158.9 230.3,137.4 229.1,137.4 195.7,137.4 195.7,1.8 " />
         <path
