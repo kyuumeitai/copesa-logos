@@ -122,7 +122,6 @@ const LaTerceraAM = props => {
         <circle
           opacity="0.5"
           fill={colorschema.letters}
-          enable-background="new    "
           cx="436.6"
           cy="77.5"
           r="2.8"
@@ -130,7 +129,6 @@ const LaTerceraAM = props => {
         <circle
           opacity="0.5"
           fill={colorschema.letters}
-          enable-background="new    "
           cx="481"
           cy="77.5"
           r="2.8"
