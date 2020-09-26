@@ -22,7 +22,6 @@ const LaTerceraAM = props => {
       x="0px"
       y="0px"
       viewBox="0 0 492.3 85.5"
-      enable-background="new 0 0 492.3 85.5"
       {...props}
     >
       <g id="latercera">

@@ -634,8 +634,7 @@ var LaTerceraAM = function LaTerceraAM(props) {
     id: "latercera-am",
     x: "0px",
     y: "0px",
-    viewBox: "0 0 492.3 85.5",
-    "enable-background": "new 0 0 492.3 85.5"
+    viewBox: "0 0 492.3 85.5"
   }, props), /*#__PURE__*/React__default.createElement("g", {
     id: "latercera"
   }, /*#__PURE__*/React__default.createElement("g", null, /*#__PURE__*/React__default.createElement("rect", {
@@ -868,7 +867,6 @@ var LaTerceraDomingo = function LaTerceraDomingo(props) {
   }), /*#__PURE__*/React__default.createElement("path", {
     d: "M1454.2,1.8h2.2l65.8,77l65.3-77h2.2V141h-20.5V69.5c0-7.7,0.8-19.9,0.8-19.9s-6.7,10.3-12.3,16.6l-34.7,41.7 h-2.4L1486,66.2c-5.2-6.3-12.1-16.6-12.1-16.6s0.8,12.1,0.8,19.9V141h-20.5V1.8z"
   }), /*#__PURE__*/React__default.createElement("path", {
-    "class": "st1",
     d: "M1613.5,3.2h21.3V141h-21.3V3.2z"
   }), /*#__PURE__*/React__default.createElement("path", {
     d: "M1689.7,60.6c-5.5-5.9-13-15.4-13-15.4s1.4,11.3,1.4,19.9v76h-19.9V1.8h2.8l76,81.7 c5.3,5.7,12.8,15.4,12.8,15.4s-1.4-12.1-1.4-19.9V3.2h19.9v139.2h-2.6L1689.7,60.6z"
