@@ -14,7 +14,14 @@ const Template = args => <Laboratorio {...args} />;
 
 export const Full = Template.bind({});
 Full.args = {
-  version: "full"
+  version: "full",
+  schema: "common"
+};
+
+export const FullLight = Template.bind({});
+FullLight.args = {
+  version: "full",
+  schema: "light"
 };
 
 export const Circle = Template.bind({});
