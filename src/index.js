@@ -23,6 +23,7 @@ import PulsoTrader from "./logos/PulsoTrader";
 import QuePasa from "./logos/QuePasa";
 import ReConstitucion from "./logos/ReConstitucion";
 import LaCuarta from "./logos/LaCuarta";
+import Icarito from "./logos/Icarito";
 
 export {
   ClubLaTercera,
@@ -49,5 +50,6 @@ export {
   PulsoTrader,
   QuePasa,
   ReConstitucion,
-  LaCuarta
+  LaCuarta,
+  Icarito
 };
