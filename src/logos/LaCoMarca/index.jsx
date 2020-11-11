@@ -17,7 +17,7 @@ const LaCoMarca = props => {
   }
 
   return (
-    <svg viewBox="0 0 735.77 125.23">
+    <svg viewBox="0 0 735.77 125.23" {...props}>
       <g id="lacomarca" fill={colorschema.letters}>
         <g id="main">
           <path d="M13.45,11.33C13.45,5,12,5,0,4.25V1.42H34.69V4.25C22.66,5,21.24,5,21.24,11.33v85h26.2C58.91,96.29,65.14,92,68,77.88H70.8l-1.42,22.66H0V97.71C12,97,13.45,97,13.45,90.63Z" />
