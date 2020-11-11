@@ -24,6 +24,7 @@ import QuePasa from "./logos/QuePasa";
 import ReConstitucion from "./logos/ReConstitucion";
 import LaCuarta from "./logos/LaCuarta";
 import Icarito from "./logos/Icarito";
+import LaCoMarca from "./logos/LaCoMarca";
 
 export {
   ClubLaTercera,
@@ -51,5 +52,6 @@ export {
   QuePasa,
   ReConstitucion,
   LaCuarta,
-  Icarito
+  Icarito,
+  LaCoMarca
 };
