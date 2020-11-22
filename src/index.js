@@ -25,6 +25,7 @@ import ReConstitucion from "./logos/ReConstitucion";
 import LaCuarta from "./logos/LaCuarta";
 import Icarito from "./logos/Icarito";
 import LaCoMarca from "./logos/LaCoMarca";
+import MatchConstituyente from './logos/MatchConstituyente'
 
 export {
   ClubLaTercera,
@@ -53,5 +54,6 @@ export {
   ReConstitucion,
   LaCuarta,
   Icarito,
-  LaCoMarca
+  LaCoMarca,
+  MatchConstituyente
 };
