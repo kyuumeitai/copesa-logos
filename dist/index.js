@@ -1784,7 +1784,7 @@ var MatchConstituyente = function MatchConstituyente(props) {
       schema = _props$schema === void 0 ? "common" : _props$schema;
   var colorschema = {
     isotypebackground: red,
-    isotypeletter: dark,
+    isotypeletter: light,
     letters: dark
   };
 

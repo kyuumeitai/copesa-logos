@@ -10,7 +10,7 @@ const MatchConstituyente = props => {
 
   const colorschema = {
     isotypebackground: red,
-    isotypeletter: dark,
+    isotypeletter: light,
     letters: dark
   };
 
