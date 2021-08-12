@@ -26,6 +26,7 @@ import LaCuarta from './logos/LaCuarta'
 import Icarito from './logos/Icarito'
 import LaCoMarca from './logos/LaCoMarca'
 import MatchConstituyente from './logos/MatchConstituyente'
+import Glamorama from './logos/Glamorama'
 
 export {
   ClubLaTercera,
@@ -56,4 +57,5 @@ export {
   Icarito,
   LaCoMarca,
   MatchConstituyente,
+  Glamorama,
 }
