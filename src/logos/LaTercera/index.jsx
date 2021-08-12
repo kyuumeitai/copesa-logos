@@ -1,18 +1,18 @@
-import React from "react";
+import React from 'react'
 
 const LaTercera = props => {
-  const { red = "#91252f", white = "white", schema = "common" } = props;
+  const { red = '#91252f', white = 'white', schema = 'common' } = props
 
   const colorschema = {
     isotypebox: red,
     isotypeletter: white,
-    letters: red
-  };
+    letters: red,
+  }
 
-  if (schema === "light") {
-    colorschema.isotypebox = red;
-    colorschema.isotypeletter = white;
-    colorschema.letters = white;
+  if (schema === 'light') {
+    colorschema.isotypebox = red
+    colorschema.isotypeletter = white
+    colorschema.letters = white
   }
 
   return (
@@ -35,7 +35,7 @@ const LaTercera = props => {
         </g>
       </g>
     </svg>
-  );
-};
+  )
+}
 
-export default LaTercera;
+export default LaTercera
