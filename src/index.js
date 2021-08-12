@@ -28,9 +28,9 @@ import LaCoMarca from './logos/LaCoMarca'
 import MatchConstituyente from './logos/MatchConstituyente'
 import Glamorama from './logos/Glamorama'
 import LaTerceraNoche from './logos/LaTerceraNoche'
-import PulsoPM from 'logos/PulsoPM'
+import PulsoPM from './logos/PulsoPM'
 import LaTerceraSabado from './logos/LaTerceraSabado'
-import InvestigacionyDatos from 'logos/InvestigacionyDatos'
+import InvestigacionyDatos from './logos/InvestigacionyDatos'
 
 export {
   ClubLaTercera,
