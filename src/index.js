@@ -31,6 +31,7 @@ import LaTerceraNoche from './logos/LaTerceraNoche'
 import PulsoPM from './logos/PulsoPM'
 import LaTerceraSabado from './logos/LaTerceraSabado'
 import InvestigacionyDatos from './logos/InvestigacionyDatos'
+import ElDeportivo from './logos/ElDeportivo'
 
 export {
   ClubLaTercera,
@@ -66,4 +67,5 @@ export {
   PulsoPM,
   LaTerceraSabado,
   InvestigacionyDatos,
+  ElDeportivo,
 }
