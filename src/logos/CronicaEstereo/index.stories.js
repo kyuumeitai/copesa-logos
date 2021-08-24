@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Icarito from '.'
+import CronicaEstereo from '.'
 
 export default {
   title: 'Logos/Crónica Estéreo',

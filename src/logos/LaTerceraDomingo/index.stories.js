@@ -1,23 +1,37 @@
-import React from "react";
+import React from 'react'
 
-import LaTerceraDomingo from ".";
+import LaTerceraDomingo from '.'
 
 export default {
-  title: "Logos/La Tercera Domingo",
+  title: 'Logos/La Tercera Domingo',
   component: LaTerceraDomingo,
   argTypes: {
-    backgroundColor: { control: "color" }
-  }
-};
+    backgroundColor: { control: 'color' },
+  },
+}
 
-const Template = args => <LaTerceraDomingo {...args} />;
+const Template = args => <LaTerceraDomingo {...args} />
 
-export const Common = Template.bind({});
+export const Common = Template.bind({})
 Common.args = {
-  schema: "common"
-};
+  version: 'large',
+  schema: 'common',
+}
 
-export const Light = Template.bind({});
+export const Light = Template.bind({})
 Light.args = {
-  schema: "light"
-};
+  version: 'large',
+  schema: 'light',
+}
+
+export const CommonSmall = Template.bind({})
+CommonSmall.args = {
+  version: 'small',
+  schema: 'common',
+}
+
+export const LightSmall = Template.bind({})
+LightSmall.args = {
+  version: 'small',
+  schema: 'light',
+}
