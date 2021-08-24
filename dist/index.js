@@ -817,15 +817,15 @@ var LaTerceraPM = function LaTerceraPM(props) {
   }));
 };
 
-var LaTerceraDomingo = function LaTerceraDomingo(props) {
+var LaTerceraDomingoSmall = function LaTerceraDomingoSmall(props) {
   var _props$dark = props.dark,
-      dark = _props$dark === void 0 ? "#000000" : _props$dark,
+      dark = _props$dark === void 0 ? '#000000' : _props$dark,
       _props$light = props.light,
-      light = _props$light === void 0 ? "#ffffff" : _props$light,
+      light = _props$light === void 0 ? '#fff' : _props$light,
       _props$red = props.red,
-      red = _props$red === void 0 ? "#A01316" : _props$red,
+      red = _props$red === void 0 ? '#A01316' : _props$red,
       _props$schema = props.schema,
-      schema = _props$schema === void 0 ? "common" : _props$schema;
+      schema = _props$schema === void 0 ? 'common' : _props$schema;
   var colorschema = {
     isotypebackground: red,
     isotypeletter: light,
@@ -833,7 +833,45 @@ var LaTerceraDomingo = function LaTerceraDomingo(props) {
     altletters: dark
   };
 
-  if (schema === "light") {
+  if (schema === 'light') {
+    colorschema.isotypebackground = red;
+    colorschema.isotypeletter = light;
+    colorschema.letters = light;
+    colorschema.altletters = light;
+  }
+
+  return /*#__PURE__*/React__default.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    viewBox: "0 0 1329.67 184.47"
+  }, props), /*#__PURE__*/React__default.createElement("g", null, /*#__PURE__*/React__default.createElement("path", {
+    fill: colorschema.altletters,
+    d: "M243.58 10.35h46.11c53.74 0 89.48 33.54 89.48 83.82S343.69 178 289.69 178h-46.11zM288 155.05c43.64 0 64.11-25.13 64.11-60.88s-20.52-60.9-64.11-60.9h-18.28v121.78zM391.48 94.17c0-50 38.47-86 86.54-86 47.82 0 86.27 36 86.27 86s-38.45 86-86.27 86c-48.02.03-86.54-35.96-86.54-86zm146.19 0c0-35.75-24.65-62.63-59.65-62.63S418.1 58.42 418.1 94.17s24.9 62.62 59.9 62.62 59.67-26.87 59.67-62.62zM584.5 8.62h2.71l80.1 93.68L746.7 8.62h2.73V178h-24.91V91c0-9.37 1-24.15 1-24.15s-8.12 12.56-15 20.2L668.3 137.8h-2.94L623.19 87c-6.39-7.64-14.77-20.2-14.77-20.2s1 14.78 1 24.15v87H584.5zM778.25 10.35h25.88V178h-25.88zM870.94 80.12c-6.66-7.16-15.79-18.73-15.79-18.73a235.79 235.79 0 011.74 24.16V178h-24.18V8.62h3.46L928.63 108c6.39 6.91 15.51 18.73 15.51 18.73s-1.72-14.78-1.72-24.15V10.35h24.16v169.36h-3.2zM986.78 94.17c0-50 36.25-85.79 86-85.79 25.63 0 45.85 7.15 59.42 22.44l-17.5 17.51c-9.62-10.12-22-16.53-41.92-16.53-35 0-59.41 26.62-59.41 62.37s24.65 62.62 62.62 62.62c17.25 0 32-4.44 41.41-10.85v-29.58h-45.1V93.43h69v65.33c-10.86 9.85-34 21.44-65.33 21.44-52.22 0-89.19-35.99-89.19-86.03zM1156.87 94.17c0-50 38.44-86 86.52-86 47.83 0 86.28 36 86.28 86s-38.45 86-86.28 86c-48.08.03-86.52-35.96-86.52-86zm146.18 0c0-35.75-24.65-62.63-59.66-62.63s-59.9 26.88-59.9 62.63 24.88 62.62 59.9 62.62 59.66-26.87 59.66-62.62z"
+  }), /*#__PURE__*/React__default.createElement("path", {
+    fill: colorschema.isotypebackground,
+    d: "M0 0h192.84v184.47H0z"
+  }), /*#__PURE__*/React__default.createElement("path", {
+    fill: colorschema.isotypeletter,
+    d: "M23.51 33.54h18.48v101.02h52.85v16.39H23.51V33.54M115.98 49.94H81.1v-16.4h88.24v16.4h-34.88v101.01h-18.48V49.94"
+  })));
+};
+
+var LaTerceraDomingo = function LaTerceraDomingo(props) {
+  var _props$dark = props.dark,
+      dark = _props$dark === void 0 ? '#000000' : _props$dark,
+      _props$light = props.light,
+      light = _props$light === void 0 ? '#ffffff' : _props$light,
+      _props$red = props.red,
+      red = _props$red === void 0 ? '#A01316' : _props$red,
+      _props$schema = props.schema,
+      schema = _props$schema === void 0 ? 'common' : _props$schema;
+  var colorschema = {
+    isotypebackground: red,
+    isotypeletter: light,
+    letters: red,
+    altletters: dark
+  };
+
+  if (schema === 'light') {
     colorschema.isotypebackground = red;
     colorschema.isotypeletter = light;
     colorschema.letters = light;
@@ -841,58 +879,44 @@ var LaTerceraDomingo = function LaTerceraDomingo(props) {
   }
 
   return /*#__PURE__*/React__default.createElement("svg", _extends({
-    x: "0px",
-    y: "0px",
-    viewBox: "0 0 2066.7 142.8"
-  }, props), /*#__PURE__*/React__default.createElement("g", null, /*#__PURE__*/React__default.createElement("g", {
+    xmlns: "http://www.w3.org/2000/svg",
+    viewBox: "0 0 2553.67 184.47"
+  }, props), /*#__PURE__*/React__default.createElement("g", {
+    "data-name": "Layer 2"
+  }, /*#__PURE__*/React__default.createElement("g", {
+    "data-name": "grupo copesa"
+  }, /*#__PURE__*/React__default.createElement("g", {
     fill: colorschema.letters
-  }, /*#__PURE__*/React__default.createElement("polygon", {
-    points: "399,22.1 358.1,22.1 358.1,2.8 461.8,2.8 461.8,22.1 420.8,22.1 420.8,140.9 399,140.9 \t\t"
-  }), /*#__PURE__*/React__default.createElement("path", {
-    d: "M674.1,140.9h-25.8l-23.6-33.6c-3,0.5-6.5,0.6-9.9,0.6h-13.6v32.9h-21.7V2.8h35.3c38,0,58.9,20.9,58.9,52.8 c0,21.3-9.5,37.8-27.6,46.1L674.1,140.9z M614,89.3c26.5,0,37.3-12.6,37.3-33.7c0-20.9-10.9-33.5-37.3-33.5h-12.9v67.2H614z"
-  }), /*#__PURE__*/React__default.createElement("path", {
-    d: "M682.6,71.9c0-40.8,31.1-70.9,70.5-70.9c25.6,0,43.3,9.9,55.3,26.8l-16.7,11.8c-9.2-12.4-20.9-18.9-39.2-18.9 c-27.4,0-47.3,21.9-47.3,51.2c0,29.9,20.4,51.2,48.1,51.2c17.9,0,31.1-6.7,41.5-20.1l16.9,11.6c-14.2,18.9-32.3,28.2-59.1,28.2 C713,142.8,682.6,112.7,682.6,71.9"
-  }), /*#__PURE__*/React__default.createElement("path", {
-    d: "M1021,140.9h-25.8l-23.6-33.6c-3,0.5-6.5,0.6-9.9,0.6h-13.5v32.9h-21.8V2.8h35.3c38,0,58.9,20.9,58.9,52.8 c0,21.3-9.6,37.8-27.7,46.1L1021,140.9z M960.8,89.3c26.6,0,37.4-12.6,37.4-33.7c0-20.9-11-33.5-37.4-33.5h-12.7v67.2H960.8z"
-  }), /*#__PURE__*/React__default.createElement("path", {
-    d: "M1047.3,140.9h-21.9L1085.9,0h1.2l60.7,140.9H1125l-7.9-19.3h-61.7L1047.3,140.9z M1086.4,47.7l-23,54.6h45.5 L1086.4,47.7z"
-  }), /*#__PURE__*/React__default.createElement("polygon", {
-    points: "913.3,121.7 845.1,121.7 845.1,98.3 903.7,98.3 903.7,79.4 845.1,79.4 845.1,22.1 913.3,22.1 913.3,2.8 823.4,2.8 823.4,140.9 913.3,140.9 \t\t"
-  }), /*#__PURE__*/React__default.createElement("polygon", {
-    points: "497.2,98.3 555.9,98.3 555.9,79.4 497.2,79.4 497.2,22.1 566.1,22.1 566.1,2.8 475.5,2.8 475.5,140.9 566.3,140.9 566.3,121.7 497.2,121.7 \t\t"
-  }), /*#__PURE__*/React__default.createElement("polygon", {
-    points: "167.9,2.9 189.6,2.9 189.6,121.7 252,121.7 252,141 167.9,141 \t\t"
-  }), /*#__PURE__*/React__default.createElement("path", {
-    d: "M258.4,141h-22L297,0.1h1.3l60.7,141H336l-7.9-19.3h-61.8L258.4,141z M297.4,47.8l-22.9,54.6h45.5L297.4,47.8 z"
-  })), /*#__PURE__*/React__default.createElement("g", {
-    fill: colorschema.altletters
   }, /*#__PURE__*/React__default.createElement("path", {
-    d: "M1174,3.2h37.9c44.2,0,73.6,27.6,73.6,68.9c0,41.3-29.2,68.9-73.6,68.9H1174V3.2z M1210.5,122.2 c35.9,0,52.7-20.7,52.7-50c0-29.4-16.8-50-52.7-50h-15v100.1H1210.5z"
+    d: "M524.69 33.34h-49.85V9.87h126.24v23.47h-49.94v144.57h-26.45V33.34zM859.3 177.91h-31.4l-28.66-40.83a84.29 84.29 0 01-12.1.76h-16.59v40.07h-26.41V9.87h43c46.2 0 71.65 25.43 71.65 64.23 0 26-11.59 46-33.62 56.13zm-73.07-62.8c32.29 0 45.38-15.29 45.38-41 0-25.4-13.31-40.76-45.38-40.76h-15.68v81.77zM869.65 93.88c0-49.66 37.82-86.23 85.75-86.23 31.18 0 52.65 12.1 67.25 32.6l-20.27 14.34c-11.18-15.07-25.47-23-47.7-23-33.39 0-57.61 26.71-57.61 62.3 0 36.35 24.79 62.28 58.57 62.28 21.77 0 37.83-8.19 50.45-24.51l20.52 14.13c-17.3 23-39.31 34.34-71.93 34.34-48 0-85-36.6-85-86.24M1281.38 177.91H1250l-28.69-40.83a84.1 84.1 0 01-12.06.76h-16.47v40.07h-26.52V9.87h43c46.19 0 71.69 25.43 71.69 64.23 0 26-11.63 46-33.65 56.13zm-73.21-62.8c32.4 0 45.48-15.29 45.48-41 0-25.4-13.4-40.76-45.48-40.76h-15.44v81.77zM1313.41 177.91h-26.67l73.64-171.48h1.51l73.87 171.48h-27.88l-9.66-23.47h-75.12zm47.52-113.45l-28 66.47h55.41zM1150.36 154.44h-82.99v-28.46h71.35v-22.97h-71.35V33.32h82.99V9.87h-109.43v168.04h109.43v-23.47zM644.06 126.01h71.42v-23h-71.42V33.34h83.9V9.87h-110.3v168.04h110.46v-23.47h-84.06v-28.43zM243.47 9.96h26.41v144.53h75.89v23.49h-102.3V9.96z"
   }), /*#__PURE__*/React__default.createElement("path", {
-    d: "M1295.6,72.1c0-41.1,31.6-70.7,71.1-70.7c39.3,0,70.9,29.6,70.9,70.7c0,41.1-31.6,70.7-70.9,70.7 C1327.2,142.8,1295.6,113.2,1295.6,72.1z M1415.8,72.1c0-29.4-20.3-51.5-49-51.5c-28.8,0-49.2,22.1-49.2,51.5 c0,29.4,20.5,51.5,49.2,51.5C1395.5,123.6,1415.8,101.5,1415.8,72.1z"
+    d: "M353.54 178h-26.72L400.48 6.49H402L475.85 178h-27.92l-9.59-23.49h-75.2zM401 64.56L373.1 131h55.3z"
+  })), /*#__PURE__*/React__default.createElement("path", {
+    fill: colorschema.altletters,
+    d: "M1467.58 10.35h46.11c53.74 0 89.48 33.54 89.48 83.82S1567.69 178 1513.69 178h-46.11zm44.42 144.7c43.64 0 64.11-25.13 64.11-60.88s-20.47-60.9-64.11-60.9h-18.23v121.78zM1615.48 94.17c0-50 38.47-86 86.54-86 47.82 0 86.27 36 86.27 86s-38.45 86-86.27 86c-48.02.03-86.54-35.96-86.54-86zm146.19 0c0-35.75-24.65-62.63-59.65-62.63s-59.92 26.88-59.92 62.63 24.9 62.62 59.9 62.62 59.67-26.87 59.67-62.62zM1808.5 8.62h2.71l80.1 93.68 79.39-93.68h2.73V178h-24.91V91c0-9.37 1-24.15 1-24.15s-8.12 12.56-15 20.2l-42.22 50.75h-2.94L1847.19 87c-6.39-7.64-14.77-20.2-14.77-20.2s1 14.78 1 24.15v87h-24.92zM2002.25 10.35h25.88V178h-25.88zM2094.94 80.12c-6.66-7.16-15.79-18.73-15.79-18.73a235.79 235.79 0 011.74 24.16V178h-24.18V8.62h3.46l92.46 99.38c6.39 6.91 15.51 18.73 15.51 18.73s-1.72-14.78-1.72-24.15V10.35h24.16v169.36h-3.2zM2210.78 94.17c0-50 36.25-85.79 86-85.79 25.63 0 45.85 7.15 59.42 22.44l-17.5 17.51c-9.62-10.12-21.95-16.53-41.92-16.53-35 0-59.41 26.62-59.41 62.37s24.65 62.62 62.62 62.62c17.25 0 32.05-4.44 41.41-10.85v-29.58h-45.1V93.43h69v65.33c-10.86 9.85-34 21.44-65.33 21.44-52.22 0-89.19-35.99-89.19-86.03zM2380.87 94.17c0-50 38.44-86 86.52-86 47.83 0 86.28 36 86.28 86s-38.45 86-86.28 86c-48.08.03-86.52-35.96-86.52-86zm146.18 0c0-35.75-24.65-62.63-59.66-62.63s-59.9 26.88-59.9 62.63 24.88 62.62 59.9 62.62 59.66-26.87 59.66-62.62z"
   }), /*#__PURE__*/React__default.createElement("path", {
-    d: "M1454.2,1.8h2.2l65.8,77l65.3-77h2.2V141h-20.5V69.5c0-7.7,0.8-19.9,0.8-19.9s-6.7,10.3-12.3,16.6l-34.7,41.7 h-2.4L1486,66.2c-5.2-6.3-12.1-16.6-12.1-16.6s0.8,12.1,0.8,19.9V141h-20.5V1.8z"
-  }), /*#__PURE__*/React__default.createElement("path", {
-    d: "M1613.5,3.2h21.3V141h-21.3V3.2z"
-  }), /*#__PURE__*/React__default.createElement("path", {
-    d: "M1689.7,60.6c-5.5-5.9-13-15.4-13-15.4s1.4,11.3,1.4,19.9v76h-19.9V1.8h2.8l76,81.7 c5.3,5.7,12.8,15.4,12.8,15.4s-1.4-12.1-1.4-19.9V3.2h19.9v139.2h-2.6L1689.7,60.6z"
-  }), /*#__PURE__*/React__default.createElement("path", {
-    d: "M1784.9,72.1c0-41.1,29.8-70.5,70.7-70.5c21.1,0,37.7,5.9,48.8,18.4l-14.4,14.4c-7.9-8.3-18-13.6-34.4-13.6 c-28.8,0-48.8,21.9-48.8,51.3c0,29.4,20.3,51.5,51.5,51.5c14.2,0,26.3-3.6,34-8.9V90.4h-37.1V71.5h56.7v53.7 c-8.9,8.1-28,17.6-53.7,17.6C1815.3,142.8,1784.9,113.2,1784.9,72.1z"
-  }), /*#__PURE__*/React__default.createElement("path", {
-    d: "M1924.7,72.1c0-41.1,31.6-70.7,71.1-70.7c39.3,0,70.9,29.6,70.9,70.7c0,41.1-31.6,70.7-70.9,70.7 C1956.3,142.8,1924.7,113.2,1924.7,72.1z M2044.8,72.1c0-29.4-20.3-51.5-49-51.5c-28.8,0-49.2,22.1-49.2,51.5 c0,29.4,20.5,51.5,49.2,51.5C2024.6,123.6,2044.8,101.5,2044.8,72.1z"
-  })), /*#__PURE__*/React__default.createElement("g", null, /*#__PURE__*/React__default.createElement("rect", {
     fill: colorschema.isotypebackground,
-    x: "0",
-    y: "2.8",
-    width: "143.9",
-    height: "138.1"
-  }), /*#__PURE__*/React__default.createElement("polygon", {
+    d: "M0 0h192.84v184.47H0z"
+  }), /*#__PURE__*/React__default.createElement("path", {
     fill: colorschema.isotypeletter,
-    points: "17.2,28.2 31.1,28.2 31.1,103.9 70.7,103.9 70.7,116.2 17.2,116.2 \t\t"
-  }), /*#__PURE__*/React__default.createElement("polygon", {
-    fill: colorschema.isotypeletter,
-    points: "86.6,40.5 60.4,40.5 60.4,28.2 126.6,28.2 126.6,40.5 100.4,40.5 100.4,116.2 86.6,116.2 \t\t"
+    d: "M23.51 33.54h18.48v101.02h52.85v16.39H23.51V33.54M115.98 49.94H81.1v-16.4h88.24v16.4h-34.88v101.01h-18.48V49.94"
   }))));
+};
+
+var LaTerceraDomingo$1 = function LaTerceraDomingo$1(_ref) {
+  var _ref$version = _ref.version,
+      version = _ref$version === void 0 ? 'large' : _ref$version,
+      rest = _objectWithoutPropertiesLoose(_ref, ["version"]);
+
+  console.log('version', version);
+
+  switch (version) {
+    case 'small':
+      return /*#__PURE__*/React__default.createElement(LaTerceraDomingoSmall, rest);
+
+    default:
+      return /*#__PURE__*/React__default.createElement(LaTerceraDomingo, rest);
+  }
 };
 
 var MasDeco = function MasDeco(props) {
@@ -2418,6 +2442,47 @@ var PulsoPM = function PulsoPM(props) {
   }))));
 };
 
+var LaTerceraSabadoSmall = function LaTerceraSabadoSmall(props) {
+  var _props$dark = props.dark,
+      dark = _props$dark === void 0 ? '#000000' : _props$dark,
+      _props$light = props.light,
+      light = _props$light === void 0 ? '#fff' : _props$light,
+      _props$red = props.red,
+      red = _props$red === void 0 ? '#A01316' : _props$red,
+      _props$schema = props.schema,
+      schema = _props$schema === void 0 ? 'common' : _props$schema;
+  var colorschema = {
+    isotypebackground: red,
+    isotypeletter: light,
+    letters: red,
+    altletters: dark
+  };
+
+  if (schema === 'light') {
+    colorschema.isotypebackground = red;
+    colorschema.isotypeletter = light;
+    colorschema.letters = light;
+    colorschema.altletters = light;
+  }
+
+  return /*#__PURE__*/React__default.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    viewBox: "0 0 1127.8 197.64"
+  }, props), /*#__PURE__*/React__default.createElement("g", null, /*#__PURE__*/React__default.createElement("path", {
+    fill: colorschema.isotypebackground,
+    d: "M0 13.17h192.84v184.47H0z"
+  }), /*#__PURE__*/React__default.createElement("path", {
+    fill: colorschema.isotypeletter,
+    d: "M23.51 46.71h18.48v101.02h52.85v16.39H23.51V46.71M115.98 63.11H81.1v-16.4h88.24v16.4h-34.88v101.01h-18.48V63.11"
+  }), /*#__PURE__*/React__default.createElement("g", {
+    fill: colorschema.altletters
+  }, /*#__PURE__*/React__default.createElement("path", {
+    d: "M240.93 155.13l21.33-11.77c7.84 13 17.89 23.29 38.24 23.29 16.91 0 28.92-9.07 28.92-22.8 0-14.47-9.8-20.83-27.94-28.92l-11-4.91c-24.27-10.78-39-23-39-48.78 0-24.76 19.12-42.41 46.82-42.41 22.07 0 37 8.33 47.07 26.23L325 57.56c-6.37-11-13.73-16.18-26.72-16.18-13.24 0-21.57 8.1-21.57 19.37 0 12.5 7.11 18.14 24 25.49l10.79 4.91c28.43 12.5 43.64 25.74 43.64 52.46 0 29.17-22.8 46.08-54.18 46.08-31.63 0-50.75-15.68-60.06-34.56M460.08 142.13l-20.84-52c-4.17-9.8-8.34-24.75-8.34-24.75s-3.92 15-8.09 24.75l-20.83 52zM429.92 19.07h2.94l73.05 168.42H479L469.39 164h-76.24l-9.56 23.54h-25zM585.33 164.69c20.1 0 29.66-11.77 29.66-28.44s-10.29-28.43-30.88-28.43h-36.28v56.87zm-4.17-78.94c15.45 0 22.81-8.58 22.81-21.08s-7.11-21.08-23.3-21.08h-32.84v42.16zm-59.32-65h60.55c31.13 0 47.07 18.88 47.07 41.92 0 15.94-8.09 27.21-22.56 32.11C629.22 100 641 115.9 641 137.23c0 28.68-19.12 50.26-54.17 50.26h-65zM745.89 142.13l-20.83-52c-4.17-9.8-8.34-24.75-8.34-24.75s-3.92 15-8.09 24.75l-20.83 52zM715.74 19.07h2.94l73.05 168.42h-27L755.2 164H679l-9.56 23.54h-25zM851.78 164.69c43.39 0 63.74-25 63.74-60.56s-20.35-60.54-63.74-60.54h-18.14v121.1zm-44.12-143.9h45.84c53.44 0 89 33.34 89 83.34s-35.31 83.36-89 83.36h-45.84zM1101.33 104.14c0-35.55-24.52-62.27-59.33-62.27s-59.57 26.72-59.57 62.27 24.76 62.27 59.57 62.27 59.33-26.73 59.33-62.27m-145.37 0c0-49.77 38.24-85.55 86-85.55 47.56 0 85.8 35.78 85.8 85.55s-38.24 85.55-85.8 85.55c-47.8 0-86-35.79-86-85.55"
+  }), /*#__PURE__*/React__default.createElement("path", {
+    d: "M427.05 0h17.27l-14.59 20.82h-11.61L427.05 0z"
+  }))));
+};
+
 var LaTerceraSabado = function LaTerceraSabado(props) {
   var _props$dark = props.dark,
       dark = _props$dark === void 0 ? '#000000' : _props$dark,
@@ -2443,24 +2508,46 @@ var LaTerceraSabado = function LaTerceraSabado(props) {
 
   return /*#__PURE__*/React__default.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
-    viewBox: "0 0 1484.33 133.62"
-  }, props), /*#__PURE__*/React__default.createElement("g", {
-    "data-name": "Layer 2"
-  }, /*#__PURE__*/React__default.createElement("g", {
-    "data-name": "grupo copesa"
+    viewBox: "0 0 2350.8 197.64"
+  }, props), /*#__PURE__*/React__default.createElement("g", null, /*#__PURE__*/React__default.createElement("g", {
+    fill: colorschema.letters
   }, /*#__PURE__*/React__default.createElement("path", {
-    d: "M197.33 30.61h-34.98V14.15h88.59v16.46h-35.05v101.45h-18.56V30.61zM380.86 88c22.66 0 31.84-10.74 31.84-28.78 0-17.83-9.34-28.6-31.84-28.6h-11V88zm51.27 44.06h-22L390 103.41a59.78 59.78 0 01-8.48.54h-11.66v28.11h-18.53V14.15h30.17c32.42 0 50.27 17.84 50.27 45.07 0 18.21-8.13 32.27-23.59 39.39zm7.27-58.96c0-34.85 26.53-60.51 60.17-60.51 21.88 0 36.94 8.49 47.19 22.87l-14.23 10.07c-7.84-10.53-17.87-16.15-33.47-16.15-23.42 0-40.42 18.74-40.42 43.72 0 25.51 17.39 43.7 41.09 43.7 15.28 0 26.56-5.74 35.41-17.2l14.4 9.92c-12.15 16.12-27.59 24.1-50.48 24.1-33.66 0-59.66-25.69-59.66-60.52M676.94 88c22.74 0 31.91-10.74 31.91-28.78 0-17.83-9.4-28.6-31.91-28.6h-10.83V88zm51.37 44.06h-22l-20.14-28.65a59.74 59.74 0 01-8.45.54h-11.61v28.11H647.5V14.15h30.17C710.07 14.15 728 32 728 59.22c0 18.21-8.15 32.27-23.6 39.39zm55.82-79.61L764.51 99.1h38.87zm-33.34 79.61h-18.72l51.68-120.33h1.06l51.83 120.33h-19.56l-6.78-16.47h-52.71zm-114.41-16.47h-58.24V95.63h50.07V79.5h-50.07V30.6h58.24V14.15h-76.79v117.91h76.79v-16.47zM281.1 95.64h50.12V79.5H281.1V30.61h58.87V14.15h-77.4v117.91h77.51v-16.47H281.1V95.64zM0 14.21h18.53v101.42h53.25v16.48H0V14.21z",
-    fill: colorschema.letters
+    d: "M523.67 43.46H474V20.09h125.77v23.37h-49.75v144.03h-26.35V43.46z"
+  }), /*#__PURE__*/React__default.createElement("g", null, /*#__PURE__*/React__default.createElement("path", {
+    d: "M784.22 124.93c32.17 0 45.2-15.24 45.2-40.86 0-25.31-13.26-40.6-45.2-40.6h-15.61v81.46zM857 187.49h-31.27l-28.56-40.68a83.44 83.44 0 01-12 .76h-16.56v39.92h-26.32V20.08h42.84c46 0 71.37 25.34 71.37 64 0 25.85-11.5 45.8-33.5 55.92zM867.33 103.78c0-49.47 37.67-85.91 85.43-85.91 31 0 52.44 12.05 67 32.48l-20.21 14.29c-11.14-15-25.37-22.93-47.52-22.93-33.26 0-57.39 26.61-57.39 62.07 0 36.21 24.69 62.05 58.34 62.05 21.7 0 37.7-8.17 50.26-24.43l20.45 14.08c-17.24 22.9-39.16 34.21-71.66 34.21-47.78 0-84.7-36.47-84.7-85.91M1204.57 124.93c32.27 0 45.29-15.24 45.29-40.86 0-25.31-13.33-40.6-45.29-40.6h-15.38v81.46zm72.93 62.56h-31.31l-28.59-40.68a83.39 83.39 0 01-12 .76h-16.4v39.92h-26.43V20.08h42.83c46 0 71.41 25.34 71.41 64 0 25.86-11.58 45.81-33.52 55.92z"
+  })), /*#__PURE__*/React__default.createElement("path", {
+    d: "M1356.75 74.46l-27.87 66.23h55.19zm-47.34 113h-26.58l73.37-170.81h1.5l73.59 170.84h-27.77l-9.63-23.39h-74.83zM1146.97 164.1h-82.68v-28.34h71.09v-22.89h-71.09V43.45h82.68V20.08h-109.01v167.41h109.01V164.1zM642.59 135.78h71.15v-22.91h-71.15V43.46h83.58V20.09H616.28v167.4h110.05v-23.38h-83.74v-28.33zM243.52 20.18h26.31v143.98h75.6v23.4H243.52V20.18z"
   }), /*#__PURE__*/React__default.createElement("path", {
-    d: "M110.53 52.53L91 99.15h38.81zm-33.29 79.58H58.49l51.68-120.33h1.1l51.79 120.33h-19.59l-6.73-16.48H84z",
-    fill: colorschema.letters
-  }), /*#__PURE__*/React__default.createElement("path", {
-    d: "M859.63 109.27l15-8.29c5.53 9.15 12.61 16.41 26.94 16.41 11.92 0 20.38-6.39 20.38-16.07 0-10.18-6.91-14.67-19.69-20.37l-7.77-3.45c-17.09-7.6-27.45-16.23-27.45-34.36 0-17.44 13.46-29.88 33-29.88 15.54 0 26.07 5.87 33.15 18.48l-14.33 8.81c-4.49-7.78-9.67-11.4-18.82-11.4-9.33 0-15.2 5.7-15.2 13.64 0 8.8 5 12.78 16.92 18l7.6 3.45c20 8.81 30.74 18.13 30.74 37 0 20.55-16.06 32.47-38.16 32.47-22.28 0-35.75-11.05-42.31-24.35m154.37-9.24l-14.68-36.61a176 176 0 01-5.87-17.44 159.51 159.51 0 01-5.7 17.44l-14.68 36.61zm-21.24-86.69h2.07l51.45 118.63h-19l-6.74-16.58h-53.7l-6.73 16.58h-17.6zM1102.22 116c14.16 0 20.89-8.29 20.89-20s-7.25-20-21.75-20h-25.56v40zm-2.93-55.6c10.88 0 16.06-6 16.06-14.85s-5-14.85-16.41-14.85h-23.14v29.7zm-41.79-45.75h42.65c21.93 0 33.15 13.29 33.15 29.52 0 11.23-5.69 19.17-15.88 22.62 15.71 3.63 24 14.85 24 29.87 0 20.21-13.47 35.4-38.16 35.4h-45.76zm157.82 85.47l-14.68-36.61a176 176 0 01-5.87-17.44 157.16 157.16 0 01-5.7 17.44l-14.67 36.61zm-21.24-86.69h2.07l51.45 118.63h-19l-6.73-16.58h-53.7l-6.73 16.58h-17.62zM1289.9 116c30.57 0 44.9-17.61 44.9-42.65s-14.33-42.65-44.9-42.65h-12.77V116zm-31.07-101.35h32.28c37.65 0 62.69 23.48 62.69 58.7s-24.87 58.71-62.69 58.71h-32.28zm206.85 58.7c0-25-17.27-43.86-41.79-43.86s-42 18.82-42 43.86 17.44 43.86 42 43.86 41.79-18.82 41.79-43.86m-102.4 0c0-35 26.94-60.26 60.61-60.26 33.5 0 60.44 25.21 60.44 60.26s-26.94 60.27-60.44 60.27c-33.67 0-60.61-25.22-60.61-60.27",
+    d: "M400.44 74.57l-27.79 66.19h55.1zm-47.27 113h-26.62l73.38-170.85h1.55L475 187.56h-27.8l-9.56-23.4h-74.91z"
+  })), /*#__PURE__*/React__default.createElement("g", {
     fill: colorschema.altletters
+  }, /*#__PURE__*/React__default.createElement("path", {
+    d: "M1463.93 155.13l21.33-11.77c7.84 13 17.89 23.29 38.24 23.29 16.91 0 28.92-9.07 28.92-22.8 0-14.47-9.8-20.83-27.94-28.92l-11-4.91c-24.27-10.78-39-23-39-48.78 0-24.76 19.12-42.41 46.82-42.41 22.07 0 37 8.33 47.07 26.23L1548 57.56c-6.37-11-13.73-16.18-26.72-16.18-13.24 0-21.57 8.1-21.57 19.37 0 12.5 7.11 18.14 24 25.49l10.79 4.91c28.43 12.5 43.64 25.74 43.64 52.46 0 29.17-22.8 46.08-54.18 46.08-31.63 0-50.75-15.68-60.06-34.56M1683.08 142.13l-20.84-52c-4.17-9.8-8.34-24.75-8.34-24.75s-3.92 15-8.09 24.75l-20.83 52zm-30.16-123.06h2.94l73.05 168.42h-27l-9.52-23.49h-76.24l-9.56 23.54h-25zM1808.33 164.69c20.1 0 29.66-11.77 29.66-28.44s-10.29-28.43-30.88-28.43h-36.28v56.87zm-4.17-78.94c15.45 0 22.81-8.58 22.81-21.08s-7.11-21.08-23.3-21.08h-32.84v42.16zm-59.32-65h60.55c31.13 0 47.07 18.88 47.07 41.92 0 15.94-8.09 27.21-22.56 32.11 22.32 5.22 34.1 21.12 34.1 42.45 0 28.68-19.12 50.26-54.17 50.26h-65zM1968.89 142.13l-20.83-52c-4.17-9.8-8.34-24.75-8.34-24.75s-3.92 15-8.09 24.75l-20.83 52zm-30.15-123.06h2.94l73 168.42h-27L1978.2 164H1902l-9.56 23.54h-25zM2074.78 164.69c43.39 0 63.74-25 63.74-60.56s-20.35-60.54-63.74-60.54h-18.14v121.1zm-44.12-143.9h45.84c53.44 0 89 33.34 89 83.34s-35.31 83.36-89 83.36h-45.84zM2324.33 104.14c0-35.55-24.52-62.27-59.33-62.27s-59.57 26.72-59.57 62.27 24.76 62.27 59.57 62.27 59.33-26.73 59.33-62.27m-145.37 0c0-49.77 38.24-85.55 86-85.55 47.56 0 85.8 35.78 85.8 85.55s-38.24 85.55-85.8 85.55c-47.8 0-86-35.79-86-85.55"
   }), /*#__PURE__*/React__default.createElement("path", {
-    d: "M998.48 0h12.16l-10.27 14.66h-8.18L998.48 0z",
-    fill: colorschema.altletters
-  }))));
+    d: "M1661.05 0h17.27l-14.59 20.82h-11.61L1661.05 0z"
+  }), /*#__PURE__*/React__default.createElement("path", {
+    fill: colorschema.isotypebackground,
+    d: "M0 13.17h192.84v184.47H0z"
+  })), /*#__PURE__*/React__default.createElement("path", {
+    fill: colorschema.isotypeletter,
+    d: "M23.51 46.71h18.48v101.02h52.85v16.39H23.51V46.71M115.98 63.11H81.1v-16.4h88.24v16.4h-34.88v101.01h-18.48V63.11"
+  })));
+};
+
+var LaTerceraSabado$1 = function LaTerceraSabado$1(_ref) {
+  var _ref$version = _ref.version,
+      version = _ref$version === void 0 ? 'large' : _ref$version,
+      rest = _objectWithoutPropertiesLoose(_ref, ["version"]);
+
+  console.log('version', version);
+
+  switch (version) {
+    case 'small':
+      return /*#__PURE__*/React__default.createElement(LaTerceraSabadoSmall, rest);
+
+    default:
+      return /*#__PURE__*/React__default.createElement(LaTerceraSabado, rest);
+  }
 };
 
 var InvestigacionyDatos = function InvestigacionyDatos(props) {
@@ -2614,10 +2701,10 @@ exports.LaCoMarca = LaCoMarca;
 exports.LaCuarta = LaCuarta;
 exports.LaTercera = LaTercera;
 exports.LaTerceraAM = LaTerceraAM;
-exports.LaTerceraDomingo = LaTerceraDomingo;
+exports.LaTerceraDomingo = LaTerceraDomingo$1;
 exports.LaTerceraNoche = LaTerceraNoche;
 exports.LaTerceraPM = LaTerceraPM;
-exports.LaTerceraSabado = LaTerceraSabado;
+exports.LaTerceraSabado = LaTerceraSabado$1;
 exports.Laboratorio = Laboratorio;
 exports.MasDeco = MasDeco;
 exports.MatchConstituyente = MatchConstituyente;
