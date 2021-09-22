@@ -595,6 +595,12 @@ var LaTercera = function LaTercera(props) {
     colorschema.letters = white;
   }
 
+  if (schema === 'white') {
+    colorschema.isotypebox = white;
+    colorschema.isotypeletter = transparent;
+    colorschema.letters = white;
+  }
+
   return /*#__PURE__*/React__default.createElement("svg", _extends({
     viewBox: "0 0 856.46 110.24",
     width: "856.46",
