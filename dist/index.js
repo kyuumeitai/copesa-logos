@@ -609,15 +609,15 @@ var LaTercera = function LaTercera(props) {
     viewBox: "0 0 856.46 110.24",
     width: "856.46",
     height: "110.24"
-  }, props), /*#__PURE__*/React__default.createElement("g", null, colorschema.mode === 'isocut' && /*#__PURE__*/React__default.createElement("mask", {
+  }, props), /*#__PURE__*/React__default.createElement("g", null, colorschema.mode === 'isocut' ? /*#__PURE__*/React__default.createElement("mask", {
     id: "iso-mask"
   }, /*#__PURE__*/React__default.createElement("path", {
-    fill: colorschema.isotypeletter,
-    d: "M14.05 20.04h11.04v60.37h31.59v9.8H14.05V20.04M69.31 29.85H48.46v-9.81h52.73v9.81H80.35v60.36H69.31V29.85"
-  }), /*#__PURE__*/React__default.createElement("path", {
     fill: colorschema.isotypebox,
     d: "M0 0h115.24v110.24H0z"
-  })), /*#__PURE__*/React__default.createElement("path", {
+  }), /*#__PURE__*/React__default.createElement("path", {
+    fill: colorschema.isotypeletter,
+    d: "M14.05 20.04h11.04v60.37h31.59v9.8H14.05V20.04M69.31 29.85H48.46v-9.81h52.73v9.81H80.35v60.36H69.31V29.85"
+  })) : /*#__PURE__*/React__default.createElement("path", {
     fill: colorschema.isotypeletter,
     d: "M14.05 20.04h11.04v60.37h31.59v9.8H14.05V20.04M69.31 29.85H48.46v-9.81h52.73v9.81H80.35v60.36H69.31V29.85"
   }), /*#__PURE__*/React__default.createElement("path", {
