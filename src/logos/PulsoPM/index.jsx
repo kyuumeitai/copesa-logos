@@ -22,7 +22,7 @@ const PulsoPM = props => {
   }
 
   if (schema === 'white') {
-    colorschema.isotypebackground = dark
+    colorschema.isotypebackground = light
     colorschema.isotypeletter = dark
     colorschema.letters = light
     colorschema.mode = 'isocut'
