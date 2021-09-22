@@ -42,8 +42,7 @@ const LaTerceraSabadoSmall = props => {
             <mask id="iso-mask">
               <path
                 fill={colorschema.isotypebackground}
-                d="M0 13.17h
-          192.84v184.47H0z"
+                d="M0 13.17h192.84v184.47H0z"
               />
               <path
                 fill={colorschema.isotypeletter}

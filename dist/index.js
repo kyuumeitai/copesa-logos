@@ -2500,7 +2500,7 @@ var LaTerceraSabadoSmall = function LaTerceraSabadoSmall(props) {
     id: "iso-mask"
   }, /*#__PURE__*/React__default.createElement("path", {
     fill: colorschema.isotypebackground,
-    d: "M0 13.17h 192.84v184.47H0z"
+    d: "M0 13.17h192.84v184.47H0z"
   }), /*#__PURE__*/React__default.createElement("path", {
     fill: colorschema.isotypeletter,
     d: "M23.51 46.71h18.48v101.02h52.85v16.39H23.51V46.71M115.98 63.11H81.1v-16.4h88.24v16.4h-34.88v101.01h-18.48V63.11"
