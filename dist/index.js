@@ -2470,7 +2470,8 @@ var LaTerceraSabadoSmall = function LaTerceraSabadoSmall(props) {
     isotypebackground: red,
     isotypeletter: light,
     letters: red,
-    altletters: dark
+    altletters: dark,
+    mode: 'normal'
   };
 
   if (schema === 'light') {
@@ -2480,15 +2481,32 @@ var LaTerceraSabadoSmall = function LaTerceraSabadoSmall(props) {
     colorschema.altletters = light;
   }
 
+  if (schema === 'white') {
+    colorschema.isotypebackground = light;
+    colorschema.isotypeletter = dark;
+    colorschema.letters = light;
+    colorschema.altletters = light;
+    colorschema.mode = 'isocut';
+  }
+
   return /*#__PURE__*/React__default.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     viewBox: "0 0 1127.8 197.64"
-  }, props), /*#__PURE__*/React__default.createElement("g", null, /*#__PURE__*/React__default.createElement("path", {
+  }, props), /*#__PURE__*/React__default.createElement("g", null, colorschema.mode === 'isocut' ? /*#__PURE__*/React__default.createElement("mask", {
+    id: "iso-mask"
+  }, /*#__PURE__*/React__default.createElement("path", {
     fill: colorschema.isotypebackground,
-    d: "M0 13.17h192.84v184.47H0z"
+    d: "M0 13.17h 192.84v184.47H0z"
   }), /*#__PURE__*/React__default.createElement("path", {
     fill: colorschema.isotypeletter,
     d: "M23.51 46.71h18.48v101.02h52.85v16.39H23.51V46.71M115.98 63.11H81.1v-16.4h88.24v16.4h-34.88v101.01h-18.48V63.11"
+  })) : /*#__PURE__*/React__default.createElement("path", {
+    fill: colorschema.isotypeletter,
+    d: "M23.51 46.71h18.48v101.02h52.85v16.39H23.51V46.71M115.98 63.11H81.1v-16.4h88.24v16.4h-34.88v101.01h-18.48V63.11"
+  }), /*#__PURE__*/React__default.createElement("path", {
+    fill: colorschema.isotypebackground,
+    mask: colorschema.mode === 'isocut' ? 'url(#iso-mask)' : '',
+    d: "M0 13.17h192.84v184.47H0z"
   }), /*#__PURE__*/React__default.createElement("g", {
     fill: colorschema.altletters
   }, /*#__PURE__*/React__default.createElement("path", {
