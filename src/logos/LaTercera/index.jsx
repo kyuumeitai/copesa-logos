@@ -15,6 +15,12 @@ const LaTercera = props => {
     colorschema.letters = white
   }
 
+  if (schema === 'white') {
+    colorschema.isotypebox = white
+    colorschema.isotypeletter = transparent
+    colorschema.letters = white
+  }
+
   return (
     <svg viewBox="0 0 856.46 110.24" width="856.46" height="110.24" {...props}>
       <g data-name="Layer 2">
