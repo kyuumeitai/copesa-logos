@@ -1,23 +1,31 @@
-import React from "react";
+import React from 'react'
 
 const Culto = props => {
   const {
-    dark = "#000000",
-    light = "#ffffff",
-    cerulean = "#128AFD",
-    schema = "common"
-  } = props;
+    dark = '#000000',
+    light = '#ffffff',
+    accent = '#128AFD',
+    schema = 'common',
+  } = props
 
   const colorschema = {
-    isotypebackground: cerulean,
+    isotypebackground: accent,
     isotypeletter: light,
-    letters: light
-  };
+    letters: light,
+    mode: 'normal',
+  }
 
-  if (schema === "light") {
-    colorschema.isotypebackground = light;
-    colorschema.isotypeletter = cerulean;
-    colorschema.letters = cerulean;
+  if (schema === 'light') {
+    colorschema.isotypebackground = light
+    colorschema.isotypeletter = accent
+    colorschema.letters = accent
+  }
+
+  if (schema === 'white') {
+    colorschema.isotypebackground = 'rgba(255,255,255,0)'
+    colorschema.isotypeletter = light
+    colorschema.letters = light
+    colorschema.mode = 'isocut'
   }
 
   return (
@@ -90,7 +98,7 @@ const Culto = props => {
 	c-8.1,0-14.6-7.2-14.6-18.2s6.5-18.2,14.6-18.2c8.2,0,14.7,7.2,14.7,18.2S458.2,100.9,450,100.9"
       />
     </svg>
-  );
-};
+  )
+}
 
-export default Culto;
+export default Culto

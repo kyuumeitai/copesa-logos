@@ -179,21 +179,29 @@ var Coronavirus = function Coronavirus(props) {
 
 var Culto = function Culto(props) {
   var _props$light = props.light,
-      light = _props$light === void 0 ? "#ffffff" : _props$light,
-      _props$cerulean = props.cerulean,
-      cerulean = _props$cerulean === void 0 ? "#128AFD" : _props$cerulean,
+      light = _props$light === void 0 ? '#ffffff' : _props$light,
+      _props$accent = props.accent,
+      accent = _props$accent === void 0 ? '#128AFD' : _props$accent,
       _props$schema = props.schema,
-      schema = _props$schema === void 0 ? "common" : _props$schema;
+      schema = _props$schema === void 0 ? 'common' : _props$schema;
   var colorschema = {
-    isotypebackground: cerulean,
+    isotypebackground: accent,
     isotypeletter: light,
-    letters: light
+    letters: light,
+    mode: 'normal'
   };
 
-  if (schema === "light") {
+  if (schema === 'light') {
     colorschema.isotypebackground = light;
-    colorschema.isotypeletter = cerulean;
-    colorschema.letters = cerulean;
+    colorschema.isotypeletter = accent;
+    colorschema.letters = accent;
+  }
+
+  if (schema === 'white') {
+    colorschema.isotypebackground = 'rgba(255,255,255,0)';
+    colorschema.isotypeletter = light;
+    colorschema.letters = light;
+    colorschema.mode = 'isocut';
   }
 
   return /*#__PURE__*/React__default.createElement("svg", _extends({
