@@ -1414,20 +1414,23 @@ var PiensaDigital = function PiensaDigital(props) {
 
 var Practico = function Practico(props) {
   var _props$light = props.light,
-      light = _props$light === void 0 ? "#ffffff" : _props$light,
-      _props$orange = props.orange,
-      orange = _props$orange === void 0 ? "#F05241" : _props$orange,
+      light = _props$light === void 0 ? '#ffffff' : _props$light,
+      _props$accent = props.accent,
+      accent = _props$accent === void 0 ? '#F05241' : _props$accent,
       _props$schema = props.schema,
-      schema = _props$schema === void 0 ? "common" : _props$schema;
+      schema = _props$schema === void 0 ? 'common' : _props$schema;
   var colorschema = {
     isotypebackground: light,
-    isotypeletter: orange,
-    letters: orange
+    letters: accent
   };
 
-  if (schema === "light") {
-    colorschema.isotypebackground = orange;
-    colorschema.isotypeletter = light;
+  if (schema === 'light') {
+    colorschema.isotypebackground = accent;
+    colorschema.letters = light;
+  }
+
+  if (schema === 'white') {
+    colorschema.isotypebackground = 'rgba(255,255,255,0)';
     colorschema.letters = light;
   }
 

@@ -1,23 +1,26 @@
-import React from "react";
+import React from 'react'
 
 const Practico = props => {
   const {
-    dark = "#000000",
-    light = "#ffffff",
-    orange = "#F05241",
-    schema = "common"
-  } = props;
+    dark = '#000000',
+    light = '#ffffff',
+    accent = '#F05241',
+    schema = 'common',
+  } = props
 
   const colorschema = {
     isotypebackground: light,
-    isotypeletter: orange,
-    letters: orange
-  };
+    letters: accent,
+  }
 
-  if (schema === "light") {
-    colorschema.isotypebackground = orange;
-    colorschema.isotypeletter = light;
-    colorschema.letters = light;
+  if (schema === 'light') {
+    colorschema.isotypebackground = accent
+    colorschema.letters = light
+  }
+
+  if (schema === 'white') {
+    colorschema.isotypebackground = 'rgba(255,255,255,0)'
+    colorschema.letters = light
   }
 
   return (
@@ -53,7 +56,7 @@ const Practico = props => {
         />
       </g>
     </svg>
-  );
-};
+  )
+}
 
-export default Practico;
+export default Practico
