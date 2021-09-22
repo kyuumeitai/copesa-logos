@@ -581,14 +581,15 @@ var LaTercera = function LaTercera(props) {
       red = _props$red === void 0 ? '#91252f' : _props$red,
       _props$white = props.white,
       white = _props$white === void 0 ? 'white' : _props$white,
+      _props$black = props.black,
+      black = _props$black === void 0 ? 'black' : _props$black,
       _props$schema = props.schema,
-      schema = _props$schema === void 0 ? 'common' : _props$schema,
-      _props$mode = props.mode,
-      mode = _props$mode === void 0 ? '' : _props$mode;
+      schema = _props$schema === void 0 ? 'common' : _props$schema;
   var colorschema = {
     isotypebox: red,
     isotypeletter: white,
-    letters: red
+    letters: red,
+    mode: 'normal'
   };
 
   if (schema === 'light') {
@@ -597,11 +598,18 @@ var LaTercera = function LaTercera(props) {
     colorschema.letters = white;
   }
 
+  if (schema === 'white') {
+    colorschema.isotypebox = white;
+    colorschema.isotypeletter = black;
+    colorschema.letters = white;
+    colorschema.mode = 'isocut';
+  }
+
   return /*#__PURE__*/React__default.createElement("svg", _extends({
     viewBox: "0 0 856.46 110.24",
     width: "856.46",
     height: "110.24"
-  }, props), /*#__PURE__*/React__default.createElement("g", null, mode === 'isocut' ? /*#__PURE__*/React__default.createElement("mask", {
+  }, props), /*#__PURE__*/React__default.createElement("g", null, colorschema.mode === 'isocut' ? /*#__PURE__*/React__default.createElement("mask", {
     id: "iso-mask"
   }, /*#__PURE__*/React__default.createElement("path", {
     fill: colorschema.isotypeletter,
@@ -614,7 +622,7 @@ var LaTercera = function LaTercera(props) {
     d: "M14.05 20.04h11.04v60.37h31.59v9.8H14.05V20.04M69.31 29.85H48.46v-9.81h52.73v9.81H80.35v60.36H69.31V29.85"
   }), /*#__PURE__*/React__default.createElement("path", {
     fill: colorschema.isotypebox,
-    mask: mode === 'isocut' ? 'url(#iso-mask)' : '',
+    mask: colorschema.mode === 'isocut' ? 'url(#iso-mask)' : '',
     d: "M0 0h115.24v110.24H0z"
   }), /*#__PURE__*/React__default.createElement("path", {
     fill: colorschema.letters,
