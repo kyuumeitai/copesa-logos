@@ -609,7 +609,7 @@ var LaTercera = function LaTercera(props) {
     viewBox: "0 0 856.46 110.24",
     width: "856.46",
     height: "110.24"
-  }, props), /*#__PURE__*/React__default.createElement("g", null, colorschema.mode === 'isocut' ? /*#__PURE__*/React__default.createElement(Fragment, null, /*#__PURE__*/React__default.createElement("mask", {
+  }, props), /*#__PURE__*/React__default.createElement("g", null, colorschema.mode === 'isocut' ? /*#__PURE__*/React__default.createElement("g", null, /*#__PURE__*/React__default.createElement("mask", {
     id: "iso-mask"
   }, /*#__PURE__*/React__default.createElement("path", {
     fill: colorschema.isotypebox,
@@ -621,7 +621,7 @@ var LaTercera = function LaTercera(props) {
     fill: colorschema.isotypebox,
     mask: colorschema.mode === 'isocut' ? 'url(#iso-mask)' : '',
     d: "M0 0h115.24v110.24H0z"
-  })) : /*#__PURE__*/React__default.createElement(Fragment, null, /*#__PURE__*/React__default.createElement("path", {
+  })) : /*#__PURE__*/React__default.createElement("g", null, /*#__PURE__*/React__default.createElement("path", {
     fill: colorschema.isotypebox,
     mask: colorschema.mode === 'isocut' ? 'url(#iso-mask)' : '',
     d: "M0 0h115.24v110.24H0z"

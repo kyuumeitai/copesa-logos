@@ -32,7 +32,7 @@ const LaTercera = props => {
     <svg viewBox="0 0 856.46 110.24" width="856.46" height="110.24" {...props}>
       <g>
         {colorschema.mode === 'isocut' ? (
-          <>
+          <g>
             <mask id="iso-mask">
               <path fill={colorschema.isotypebox} d="M0 0h115.24v110.24H0z" />
               <path
@@ -45,9 +45,9 @@ const LaTercera = props => {
               mask={colorschema.mode === 'isocut' ? 'url(#iso-mask)' : ''}
               d="M0 0h115.24v110.24H0z"
             />
-          </>
+          </g>
         ) : (
-          <>
+          <g>
             <path
               fill={colorschema.isotypebox}
               mask={colorschema.mode === 'isocut' ? 'url(#iso-mask)' : ''}
@@ -57,7 +57,7 @@ const LaTercera = props => {
               fill={colorschema.isotypeletter}
               d="M14.05 20.04h11.04v60.37h31.59v9.8H14.05V20.04M69.31 29.85H48.46v-9.81h52.73v9.81H80.35v60.36H69.31V29.85"
             />
-          </>
+          </g>
         )}
 
         <path
