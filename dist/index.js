@@ -597,7 +597,7 @@ var LaTercera = function LaTercera(props) {
 
   if (schema === 'white') {
     colorschema.isotypebox = white;
-    colorschema.isotypeletter = transparent;
+    colorschema.isotypeletter = rgba(255, 255, 255, 0);
     colorschema.letters = white;
   }
 
