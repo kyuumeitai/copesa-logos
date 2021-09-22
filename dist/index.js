@@ -2497,7 +2497,7 @@ var LaTerceraSabadoSmall = function LaTerceraSabadoSmall(props) {
     xmlns: "http://www.w3.org/2000/svg",
     viewBox: "0 0 1127.8 197.64"
   }, props), /*#__PURE__*/React__default.createElement("g", null, colorschema.mode === 'isocut' ? /*#__PURE__*/React__default.createElement("g", null, /*#__PURE__*/React__default.createElement("mask", {
-    id: "iso-mask"
+    id: "iso-mask-sabado"
   }, /*#__PURE__*/React__default.createElement("path", {
     fill: colorschema.isotypebackground,
     d: "M0 13.17h192.84v184.47H0z"
@@ -2506,7 +2506,7 @@ var LaTerceraSabadoSmall = function LaTerceraSabadoSmall(props) {
     d: "M23.51 46.71h18.48v101.02h52.85v16.39H23.51V46.71M115.98 63.11H81.1v-16.4h88.24v16.4h-34.88v101.01h-18.48V63.11"
   })), /*#__PURE__*/React__default.createElement("path", {
     fill: colorschema.isotypebackground,
-    mask: colorschema.mode === 'isocut' ? 'url(#iso-mask)' : '',
+    mask: colorschema.mode === 'isocut' ? 'url(#iso-mask-sabado)' : '',
     d: "M0 13.17h192.84v184.47H0z"
   })) : /*#__PURE__*/React__default.createElement("g", null, /*#__PURE__*/React__default.createElement("path", {
     fill: colorschema.isotypebackground,

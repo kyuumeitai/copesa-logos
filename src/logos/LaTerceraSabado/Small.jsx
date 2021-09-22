@@ -39,7 +39,7 @@ const LaTerceraSabadoSmall = props => {
       <g>
         {colorschema.mode === 'isocut' ? (
           <g>
-            <mask id="iso-mask">
+            <mask id="iso-mask-sabado">
               <path
                 fill={colorschema.isotypebackground}
                 d="M0 13.17h192.84v184.47H0z"
@@ -51,7 +51,9 @@ const LaTerceraSabadoSmall = props => {
             </mask>
             <path
               fill={colorschema.isotypebackground}
-              mask={colorschema.mode === 'isocut' ? 'url(#iso-mask)' : ''}
+              mask={
+                colorschema.mode === 'isocut' ? 'url(#iso-mask-sabado)' : ''
+              }
               d="M0 13.17h192.84v184.47H0z"
             />
           </g>
