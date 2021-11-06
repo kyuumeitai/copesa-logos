@@ -33,6 +33,7 @@ import LaTerceraSabado from './logos/LaTerceraSabado'
 import InvestigacionyDatos from './logos/InvestigacionyDatos'
 import ElDeportivo from './logos/ElDeportivo'
 import CronicaEstereo from './logos/CronicaEstereo'
+import MatchElectoral from './logos/MatchElectoral'
 
 export {
   ClubLaTercera,
@@ -70,4 +71,5 @@ export {
   InvestigacionyDatos,
   ElDeportivo,
   CronicaEstereo,
+  MatchElectoral,
 }
