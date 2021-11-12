@@ -27,12 +27,12 @@ const CandidatosElectorales = props => {
       {...props}>
       <defs>
         <style>
-          {
-            '.logo-candidatos-electorales_svg__cls-1{fill:#aa202c}.logo-candidatos-electorales_svg__cls-2{fill:#fff}'
-          }
+          {`.logo-candidatos-electorales_svg__cls-1{fill:${colorschema.isotypebackground}}.logo-candidatos-electorales_svg__cls-2{fill:${colorschema.isotypeletter}}`}
         </style>
       </defs>
-      <g id="logo-candidatos-electorales_svg__Layer_2" data-name="Layer 2">
+      <g
+        id="logo-candidatos-electorales_svg__Layer_2"
+        fill={colorschema.letters}>
         <g id="logo-candidatos-electorales_svg__superior">
           <path
             className="logo-candidatos-electorales_svg__cls-1"
