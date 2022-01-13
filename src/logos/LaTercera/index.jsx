@@ -29,7 +29,7 @@ const LaTercera = props => {
   }
 
   return (
-    <svg viewBox="0 0 856.46 110.24" width="856.46" height="110.24" {...props}>
+    <svg viewBox="0 0 856.46 110.24" {...props}>
       <g>
         {colorschema.mode === 'isocut' ? (
           <g>

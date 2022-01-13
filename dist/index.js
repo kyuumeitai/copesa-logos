@@ -614,9 +614,7 @@ var LaTercera = function LaTercera(props) {
   }
 
   return /*#__PURE__*/React__default.createElement("svg", _extends({
-    viewBox: "0 0 856.46 110.24",
-    width: "856.46",
-    height: "110.24"
+    viewBox: "0 0 856.46 110.24"
   }, props), /*#__PURE__*/React__default.createElement("g", null, colorschema.mode === 'isocut' ? /*#__PURE__*/React__default.createElement("g", null, /*#__PURE__*/React__default.createElement("mask", {
     id: "iso-mask"
   }, /*#__PURE__*/React__default.createElement("path", {
