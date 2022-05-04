@@ -38,10 +38,12 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, 'lib'),
-    filename: '[name].js',
+    filename: pathData => {
+      return pathData.chunk.name === 'app'
+        ? 'copesa-logos.js'
+        : `${pathData.chunk.name}.js`
+    },
     library: 'copesa-logos',
     libraryTarget: 'umd',
-    umdNamedDefine: true,
-    libraryExport: 'default',
   },
 }
