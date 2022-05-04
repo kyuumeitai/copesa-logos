@@ -8,6 +8,7 @@
   "repository": "kyuumeitai/copesa-logos",
   "source": "src/index.js",
   "main": "lib/copesa-logos.js",
+  "module": "src/copesa-logos.js",
   "engines": {
     "node": ">=14"
   },
