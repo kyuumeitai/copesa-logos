@@ -36,14 +36,12 @@ module.exports = {
       },
     ],
   },
-  experiments: {
-    outputModule: true,
-  },
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'lib'),
     filename: '[name].js',
-    library: {
-      type: 'module',
-    },
+    library: 'copesa-logos',
+    libraryTarget: 'umd',
+    umdNamedDefine: true,
+    libraryExport: 'default',
   },
 }

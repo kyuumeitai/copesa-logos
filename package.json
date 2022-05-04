@@ -6,8 +6,8 @@
   "author": "kyuumeitai",
   "license": "MIT",
   "repository": "kyuumeitai/copesa-logos",
-  "module": "src/index.js",
   "source": "src/index.js",
+  "main": "lib/copesa-logos.js",
   "engines": {
     "node": ">=14"
   },
@@ -48,6 +48,6 @@
     "style-loader": "^3.3.1"
   },
   "files": [
-    "dist"
+    "lib"
   ]
 }
