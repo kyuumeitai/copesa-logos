@@ -1,5 +1,6 @@
 const path = require('path')
 const glob = require('glob')
+const TerserPlugin = require('terser-webpack-plugin')
 
 const allLogos = () => {
   const logos = glob.sync(path.join(__dirname, './src/logos/*/index.jsx'))
@@ -21,7 +22,29 @@ const allLogos = () => {
 }
 
 module.exports = {
-  entry: allLogos(),
+  optimization: {
+    minimize: true,
+    minimizer: [
+      new TerserPlugin({
+        terserOptions: {
+          format: {
+            comments: false,
+          },
+        },
+        extractComments: {
+          condition: /^\**!|@preserve|@license|@cc_on/i,
+          filename: 'licence.txt',
+          banner: () => {
+            return ``
+          },
+        },
+      }),
+    ],
+  },
+  // entry: allLogos(),
+  entry: {
+    app: './src/index.js',
+  },
   resolve: {
     extensions: ['.js', '.jsx'],
   },
@@ -43,7 +66,9 @@ module.exports = {
         ? 'copesa-logos.js'
         : `${pathData.chunk.name}.js`
     },
-    library: 'copesa-logos',
-    libraryTarget: 'umd',
+    library: {
+      name: 'CopesaLogos',
+      type: 'umd',
+    },
   },
 }
