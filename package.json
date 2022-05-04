@@ -17,7 +17,7 @@
     "node": ">=12"
   },
   "scripts": {
-    "build": "microbundle --format modern --jsx React.createElement && microbundle --format modern --jsx React.createElement ./src/logos/**/index.jsx ",
+    "build": "microbundle --format modern --jsx React.createElement",
     "start": "microbundle watch --no-compress --format modern",
     "prepublish": "run-s build",
     "test": "run-s test:unit test:lint test:build",
