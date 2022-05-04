@@ -11,10 +11,13 @@ const allLogos = () => {
         path: `./src/logos/${logo}/index.jsx`,
       }
     })
-    .reduce((memo, file) => {
-      memo[file.name] = file.path
-      return memo
-    }, {})
+    .reduce(
+      (memo, file) => {
+        memo[file.name] = file.path
+        return memo
+      },
+      { app: './src/index.js' },
+    )
 }
 
 module.exports = {

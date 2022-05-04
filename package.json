@@ -11,11 +11,11 @@
   "engines": {
     "node": ">=14"
   },
-  
   "scripts": {
     "build": "webpack --config webpack.prod.js",
     "start": "webpack serve --open --config webpack.dev.js",
     "prepublish": "run-s build",
+    "prepare": "run-s build",
     "test": "run-s test:unit test:lint test:build",
     "test:build": "run-s build",
     "test:unit": "cross-env CI=1 react-scripts test --env=jsdom",
