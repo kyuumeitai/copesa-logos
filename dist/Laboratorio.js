@@ -1,0 +1,2 @@
+import{_ as e}from"./objectWithoutProperties-00c72f1d.js";import r from"react";import{F as t,S as a,a as c,b as s}from"./Small-ce4ac7b9.js";import"./extends-e61fd370.js";var l=["version"],o=function(o){var m=o.version,i=void 0===m?"full":m,n=e(o,l);switch(i){case"circle":return r.createElement(s,n);case"circle-small":return r.createElement(c,n);case"small":return r.createElement(a,n);default:return r.createElement(t,n)}};export{o as Laboratorio};
+//# sourceMappingURL=Laboratorio.js.map

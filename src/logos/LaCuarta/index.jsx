@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Full from './LaCuarta'
+import Full from './LaCuartaFull'
 import FullClaim from './LaCuartaClaim'
 import FullClaimVert from './LaCuartaClaimVert'
 import Comerciante from './LaCuartaComerciante'
@@ -67,4 +67,4 @@ const LaCuarta = rest => {
   }
 }
 
-export default LaCuarta
+export { LaCuarta }

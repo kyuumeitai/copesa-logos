@@ -12,4 +12,4 @@ const LaTerceraDomingo = ({ version = 'large', ...rest }) => {
   }
 }
 
-export default LaTerceraDomingo
+export { LaTerceraDomingo }
