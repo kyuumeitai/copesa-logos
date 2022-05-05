@@ -1,5 +1,4 @@
 import { nodeResolve } from '@rollup/plugin-node-resolve'
-import commonjs from '@rollup/plugin-commonjs'
 import { terser } from 'rollup-plugin-terser'
 import external from 'rollup-plugin-peer-deps-external'
 import { babel } from '@rollup/plugin-babel'
@@ -11,12 +10,6 @@ export default {
   input: 'src/index.js',
   output: [
     {
-      file: packageJson.main,
-      format: 'cjs',
-      sourcemap: true,
-      name: 'copesa-logos',
-    },
-    {
       file: packageJson.module,
       format: 'esm',
       sourcemap: true,
@@ -26,7 +19,6 @@ export default {
     del({ targets: 'dist/*' }),
     external({ deps: true }),
     nodeResolve({ extensions: ['.jsx', '.js'] }),
-    commonjs(),
     babel({
       babelHelpers: 'runtime',
       exclude: '**/node_modules/**',
