@@ -1,23 +1,23 @@
-import React from "react";
+import React from 'react'
 
 const ClubLaTercera = props => {
   const {
-    dark = "#000000",
-    light = "#ffffff",
-    red = "#A01622",
-    schema = "common"
-  } = props;
+    dark = '#000000',
+    light = '#ffffff',
+    red = '#A01622',
+    schema = 'common',
+  } = props
 
   const colorschema = {
     isotypebackground: red,
     isotypeletter: light,
-    letters: dark
-  };
+    letters: dark,
+  }
 
-  if (schema === "light") {
-    colorschema.isotypebackground = red;
-    colorschema.isotypeletter = light;
-    colorschema.letters = light;
+  if (schema === 'light') {
+    colorschema.isotypebackground = red
+    colorschema.isotypeletter = light
+    colorschema.letters = light
   }
 
   return (
@@ -98,7 +98,7 @@ const ClubLaTercera = props => {
         </g>
       </g>
     </svg>
-  );
-};
+  )
+}
 
-export default ClubLaTercera;
+export default ClubLaTercera
