@@ -1,6 +1,6 @@
 import React from 'react'
 
-const FactChecking = props => {
+export const FactChecking = props => {
   const {
     dark = '#000000',
     light = '#ffffff',
@@ -103,5 +103,3 @@ const FactChecking = props => {
     </svg>
   )
 }
-
-export { FactChecking }

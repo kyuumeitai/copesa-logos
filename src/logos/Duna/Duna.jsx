@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Duna = props => {
+export const Duna = props => {
   const {
     dark = '#000000',
     light = '#ffffff',
@@ -44,5 +44,3 @@ const Duna = props => {
     </svg>
   )
 }
-
-export { Duna }

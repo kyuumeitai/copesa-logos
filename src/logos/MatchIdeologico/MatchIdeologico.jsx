@@ -1,6 +1,6 @@
 import React from 'react'
 
-const MatchIdeologico = props => {
+export const MatchIdeologico = props => {
   const {
     dark = '#000000',
     light = '#ffffff',
@@ -65,5 +65,3 @@ const MatchIdeologico = props => {
     </svg>
   )
 }
-
-export { MatchIdeologico }

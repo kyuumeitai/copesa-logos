@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ReConstitucion = props => {
+export const ReConstitucion = props => {
   const {
     dark = '#000000',
     light = '#ffffff',
@@ -89,5 +89,3 @@ const ReConstitucion = props => {
     </svg>
   )
 }
-
-export { ReConstitucion }

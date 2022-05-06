@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Finde = props => {
+export const Finde = props => {
   const {
     dark = '#000000',
     light = '#ffffff',
@@ -53,5 +53,3 @@ const Finde = props => {
     </svg>
   )
 }
-
-export { Finde }

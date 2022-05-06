@@ -9,24 +9,25 @@ import glob from 'glob'
 const packageJson = require('./package.json')
 
 const allLogos = () => {
-  const logos = glob.sync(path.join(__dirname, './src/logos/*/index.jsx'))
-  const arr = logos.map(logo => logo.split('/')[logo.split('/').length - 2])
-  return arr.map(logo => {
-    return `src/logos/${logo}/${logo}.jsx`
-  })
+  const logos = glob.sync(path.join(__dirname, './src/logos/**/*.jsx'))
+  // console.log('logos glob', logos)
+  const arr = [
+    ...new Set(logos.map(logo => logo.split('/')[logo.split('/').length - 2])),
+  ]
+  return arr
+    .filter(item => item !== 'logos')
+    .map(logo => {
+      return `src/logos/${logo}/${logo}.jsx`
+    })
 }
 
 export default {
   input: [...allLogos(), 'src/index.js'],
-  // input: [
-  //   'src/logos/CandidatosElectorales/CandidatosElectorales.jsx',
-  //   'src/logos/ClubLaTercera/ClubLaTercera.jsx',
-  // ],
   output: [
     {
       dir: 'dist/esm',
       format: 'esm',
-      sourcemap: true,
+      sourcemap: false,
     },
   ],
   plugins: [

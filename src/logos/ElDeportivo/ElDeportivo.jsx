@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ElDeportivo = props => {
+export const ElDeportivo = props => {
   const {
     dark = '#000000',
     light = '#ffffff',
@@ -50,5 +50,3 @@ const ElDeportivo = props => {
     </svg>
   )
 }
-
-export { ElDeportivo }

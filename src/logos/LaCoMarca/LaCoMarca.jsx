@@ -1,6 +1,6 @@
 import React from 'react'
 
-const LaCoMarca = props => {
+export const LaCoMarca = props => {
   const {
     light = '#ffffff',
     red = '#a9212f',
@@ -80,5 +80,3 @@ const LaCoMarca = props => {
     </svg>
   )
 }
-
-export { LaCoMarca }

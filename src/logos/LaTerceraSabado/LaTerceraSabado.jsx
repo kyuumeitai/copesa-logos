@@ -2,7 +2,7 @@ import React from 'react'
 import Small from './Small'
 import Large from './Large'
 
-const LaTerceraSabado = ({ version = 'large', ...rest }) => {
+export const LaTerceraSabado = ({ version = 'large', ...rest }) => {
   console.log('version', version)
   switch (version) {
     case 'small':
@@ -11,5 +11,3 @@ const LaTerceraSabado = ({ version = 'large', ...rest }) => {
       return <Large {...rest} />
   }
 }
-
-export { LaTerceraSabado }

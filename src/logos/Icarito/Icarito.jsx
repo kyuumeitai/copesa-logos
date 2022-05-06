@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Icarito = props => {
+export const Icarito = props => {
   const { light = '#ffffff', red = '#972a30', schema = 'common' } = props
 
   const colorschema = {
@@ -25,5 +25,3 @@ const Icarito = props => {
     </svg>
   )
 }
-
-export { Icarito }

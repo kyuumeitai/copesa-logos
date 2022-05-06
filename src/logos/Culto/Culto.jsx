@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Culto = props => {
+export const Culto = props => {
   const {
     dark = '#000000',
     light = '#ffffff',
@@ -100,5 +100,3 @@ const Culto = props => {
     </svg>
   )
 }
-
-export { Culto }

@@ -11,7 +11,7 @@ import ConstructorVertical from './LaCuartaVertConstructor'
 import Icon from './LaCuartaIcon'
 import Sello from './LaCuartaSello'
 
-const LaCuarta = rest => {
+export const LaCuarta = rest => {
   const {
     dark = '#000000',
     light = '#ffffff',
@@ -66,5 +66,3 @@ const LaCuarta = rest => {
     }
   }
 }
-
-export { LaCuarta }

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Practico = props => {
+export const Practico = props => {
   const {
     dark = '#000000',
     light = '#ffffff',
@@ -58,5 +58,3 @@ const Practico = props => {
     </svg>
   )
 }
-
-export { Practico }

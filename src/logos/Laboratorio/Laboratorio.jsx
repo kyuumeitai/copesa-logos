@@ -5,7 +5,7 @@ import CircleSmall from './CircleSmall'
 import Full from './Full'
 import Small from './Small'
 
-const Laboratorio = ({ version = 'full', ...rest }) => {
+export const Laboratorio = ({ version = 'full', ...rest }) => {
   switch (version) {
     case 'circle':
       return <Circle {...rest} />
@@ -17,5 +17,3 @@ const Laboratorio = ({ version = 'full', ...rest }) => {
       return <Full {...rest} />
   }
 }
-
-export { Laboratorio }

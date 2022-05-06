@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CronicaEstereo = props => {
+export const CronicaEstereo = props => {
   const { light = '#ffffff', red = '#ff1948', schema = 'common' } = props
 
   const colorschema = {
@@ -33,5 +33,3 @@ const CronicaEstereo = props => {
     </svg>
   )
 }
-
-export { CronicaEstereo }

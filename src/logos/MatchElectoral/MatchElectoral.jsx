@@ -1,6 +1,6 @@
 import React from 'react'
 
-const MatchElectoral = props => {
+export const MatchElectoral = props => {
   const {
     dark = '#000000',
     light = '#ffffff',
@@ -65,5 +65,3 @@ const MatchElectoral = props => {
     </svg>
   )
 }
-
-export { MatchElectoral }

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const LaTerceraPM = props => {
+export const LaTerceraPM = props => {
   const {
     blue = '#18283f',
     light = '#ffffff',
@@ -154,5 +154,3 @@ const LaTerceraPM = props => {
     </svg>
   )
 }
-
-export { LaTerceraPM }

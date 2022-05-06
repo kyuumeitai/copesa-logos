@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Interactivo = props => {
+export const Interactivo = props => {
   const {
     dark = '#000000',
     light = '#ffffff',
@@ -91,5 +91,3 @@ const Interactivo = props => {
     </svg>
   )
 }
-
-export { Interactivo }

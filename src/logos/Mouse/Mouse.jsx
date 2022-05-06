@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Mouse = props => {
+export const Mouse = props => {
   const {
     dark = '#231F20',
     light = '#ffffff',
@@ -290,5 +290,3 @@ const Mouse = props => {
     </svg>
   )
 }
-
-export { Mouse }

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const LaTercera = props => {
+export const LaTercera = props => {
   const {
     red = '#91252f',
     white = 'white',
@@ -72,5 +72,3 @@ const LaTercera = props => {
     </svg>
   )
 }
-
-export { LaTercera }

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Pulso = props => {
+export const Pulso = props => {
   const { dark = '#000000', light = '#ffffff', schema = 'common' } = props
 
   const colorschema = {
@@ -45,5 +45,3 @@ const Pulso = props => {
     </svg>
   )
 }
-
-export { Pulso }

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const MatchConstituyente = props => {
+export const MatchConstituyente = props => {
   const {
     dark = '#000000',
     light = '#ffffff',
@@ -74,5 +74,3 @@ const MatchConstituyente = props => {
     </svg>
   )
 }
-
-export { MatchConstituyente }

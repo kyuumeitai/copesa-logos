@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Glamorama = props => {
+export const Glamorama = props => {
   const {
     dark = '#000000',
     light = '#ffffff',
@@ -386,5 +386,3 @@ const Glamorama = props => {
     </svg>
   )
 }
-
-export { Glamorama }

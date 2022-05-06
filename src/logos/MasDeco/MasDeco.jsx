@@ -1,6 +1,6 @@
 import React from 'react'
 
-const MasDeco = props => {
+export const MasDeco = props => {
   const {
     dark = '#000000',
     light = '#ffffff',
@@ -60,5 +60,3 @@ const MasDeco = props => {
     </svg>
   )
 }
-
-export { MasDeco }

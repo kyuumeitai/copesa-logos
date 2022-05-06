@@ -1,6 +1,6 @@
 import React from 'react'
 
-const PiensaDigital = props => {
+export const PiensaDigital = props => {
   const {
     dark = '#000000',
     light = '#ffffff',
@@ -74,5 +74,3 @@ const PiensaDigital = props => {
     </svg>
   )
 }
-
-export { PiensaDigital }

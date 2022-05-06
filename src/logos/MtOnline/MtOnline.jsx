@@ -1,6 +1,6 @@
 import React from 'react'
 
-const MtOnline = props => {
+export const MtOnline = props => {
   const { dark = '#000000', light = '#ffffff', schema = 'common' } = props
 
   const colorschema = {
@@ -26,5 +26,3 @@ const MtOnline = props => {
     </svg>
   )
 }
-
-export { MtOnline }

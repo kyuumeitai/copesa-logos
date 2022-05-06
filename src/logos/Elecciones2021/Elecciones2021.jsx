@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Elecciones2021 = props => {
+export const Elecciones2021 = props => {
   const {
     dark = '#000000',
     light = '#ffffff',
@@ -72,5 +72,3 @@ const Elecciones2021 = props => {
     </svg>
   )
 }
-
-export { Elecciones2021 }

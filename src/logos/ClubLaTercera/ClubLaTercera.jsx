@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ClubLaTercera = props => {
+export const ClubLaTercera = props => {
   const {
     dark = '#000000',
     light = '#ffffff',
@@ -100,5 +100,3 @@ const ClubLaTercera = props => {
     </svg>
   )
 }
-
-export { ClubLaTercera }
