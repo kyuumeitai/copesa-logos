@@ -1,6 +1,6 @@
 import React from 'react'
 
-import FactChecking from '.'
+import FactChecking from './FactChecking'
 
 export default {
   title: 'Logos/Fact Checking',

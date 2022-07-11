@@ -1,6 +1,6 @@
 import React from 'react'
 
-import MatchConstituyente from '.'
+import MatchConstituyente from './MatchConstituyente'
 
 export default {
   title: 'Logos/MatchConstituyente',

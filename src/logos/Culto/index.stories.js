@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Culto from '.'
+import Culto from './Culto'
 
 export default {
   title: 'Logos/Culto',

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Finde from '.'
+import Finde from './Finde'
 
 export default {
   title: 'Logos/Finde',

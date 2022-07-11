@@ -1,6 +1,6 @@
 import React from 'react'
 
-import MtNews from '.'
+import MtNews from './MtNews'
 
 export default {
   title: 'Logos/MtNews',

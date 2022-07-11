@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Practico from '.'
+import Practico from './Practico'
 
 export default {
   title: 'Logos/Práctico',

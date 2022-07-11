@@ -1,6 +1,6 @@
 import React from 'react'
 
-import LaCoMarca from '.'
+import LaCoMarca from './LaCoMarca'
 
 export default {
   title: 'Logos/LaCoMarca',

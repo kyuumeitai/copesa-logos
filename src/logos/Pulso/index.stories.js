@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Pulso from '.'
+import Pulso from './Pulso'
 
 export default {
   title: 'Logos/Pulso',

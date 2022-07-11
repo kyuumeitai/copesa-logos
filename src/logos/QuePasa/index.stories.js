@@ -1,6 +1,6 @@
 import React from 'react'
 
-import QuePasa from '.'
+import QuePasa from './QuePasa'
 
 export default {
   title: 'Logos/Qué Pasa',

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import PiensaDigital from '.'
+import PiensaDigital from './PiensaDigital'
 
 export default {
   title: 'Logos/Piensa Digital',

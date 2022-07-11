@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Duna from '.'
+import Duna from './Duna'
 
 export default {
   title: 'Logos/Duna',

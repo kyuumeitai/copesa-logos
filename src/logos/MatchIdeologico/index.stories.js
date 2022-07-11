@@ -1,6 +1,6 @@
 import React from 'react'
 
-import MatchIdeologico from '.'
+import MatchIdeologico from './MatchIdeologico'
 
 export default {
   title: 'Logos/MatchIdeologico',

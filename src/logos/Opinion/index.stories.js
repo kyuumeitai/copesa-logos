@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Opinion from '.'
+import Opinion from './Opinion'
 
 export default {
   title: 'Logos/Opinion',

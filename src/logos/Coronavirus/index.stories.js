@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Coronavirus from '.'
+import Coronavirus from './Coronavirus'
 
 export default {
   title: 'Logos/Coronavirus',

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import ReConstitucion from '.'
+import ReConstitucion from './ReConstitucion'
 
 export default {
   title: 'Logos/Re:Constitución',
