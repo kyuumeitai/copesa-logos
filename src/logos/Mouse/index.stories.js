@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Mouse from './Mouse'
+import { Mouse } from './Mouse'
 
 export default {
   title: 'Logos/Mouse',

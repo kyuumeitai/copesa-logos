@@ -1,6 +1,6 @@
 import React from 'react'
 
-import ElDeportivo from './ElDeportivo'
+import { ElDeportivo } from './ElDeportivo'
 
 export default {
   title: 'Logos/El Deportivo',

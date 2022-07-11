@@ -1,6 +1,6 @@
 import React from 'react'
 
-import MasDeco from './MasDeco'
+import { MasDeco } from './MasDeco'
 
 export default {
   title: 'Logos/Más Deco',

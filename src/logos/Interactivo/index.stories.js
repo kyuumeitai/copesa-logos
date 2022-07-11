@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Interactivo from './Interactivo'
+import { Interactivo } from './Interactivo'
 
 export default {
   title: 'Logos/Interactivo',

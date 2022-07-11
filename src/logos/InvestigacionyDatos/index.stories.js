@@ -1,6 +1,6 @@
 import React from 'react'
 
-import InvestigacionyDatos from './InvestigacionyDatos'
+import { InvestigacionyDatos } from './InvestigacionyDatos'
 
 export default {
   title: 'Logos/InvestigacionyDatos',

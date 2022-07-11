@@ -1,6 +1,6 @@
 import React from 'react'
 
-import CronicaEstereo from './CronicaEstereo'
+import { CronicaEstereo } from './CronicaEstereo'
 
 export default {
   title: 'Logos/Crónica Estéreo',

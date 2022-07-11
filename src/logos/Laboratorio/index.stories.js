@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Laboratorio from './Laboratorio'
+import { Laboratorio } from './Laboratorio'
 
 export default {
   title: 'Logos/Laboratorio',

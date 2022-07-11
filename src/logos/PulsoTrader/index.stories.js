@@ -1,6 +1,6 @@
 import React from 'react'
 
-import PulsoTrader from './PulsoTrader'
+import { PulsoTrader } from './PulsoTrader'
 
 export default {
   title: 'Logos/Pulso Trader',

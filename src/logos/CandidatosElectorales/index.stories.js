@@ -1,6 +1,6 @@
 import React from 'react'
 
-import CandidatosElectorales from './CandidatosElectorales'
+import { CandidatosElectorales } from './CandidatosElectorales'
 
 export default {
   title: 'Logos/CandidatosElectorales',

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Icarito from './Icarito'
+import { Icarito } from './Icarito'
 
 export default {
   title: 'Logos/Icarito',

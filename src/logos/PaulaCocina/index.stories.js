@@ -1,6 +1,6 @@
 import React from 'react'
 
-import PaulaCocina from './PaulaCocina'
+import { PaulaCocina } from './PaulaCocina'
 
 export default {
   title: 'Logos/Paula Cocina',

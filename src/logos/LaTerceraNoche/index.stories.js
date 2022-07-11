@@ -1,6 +1,6 @@
 import React from 'react'
 
-import LaTerceraNoche from './LaTerceraNoche'
+import { LaTerceraNoche } from './LaTerceraNoche'
 
 export default {
   title: 'Logos/La Tercera Noche',

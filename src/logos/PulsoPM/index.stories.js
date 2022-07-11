@@ -1,6 +1,6 @@
 import React from 'react'
 
-import PulsoPM from './PulsoPM'
+import { PulsoPM } from './PulsoPM'
 
 export default {
   title: 'Logos/PulsoPM',

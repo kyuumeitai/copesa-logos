@@ -1,6 +1,6 @@
 import React from 'react'
 
-import MtOnline from './MtOnline'
+import { MtOnline } from './MtOnline'
 
 export default {
   title: 'Logos/MtOnline',

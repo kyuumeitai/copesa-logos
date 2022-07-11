@@ -1,6 +1,6 @@
 import React from 'react'
 
-import LaTerceraAM from './LaTerceraAM'
+import { LaTerceraAM } from './LaTerceraAM'
 
 export default {
   title: 'Logos/La Tercera AM',

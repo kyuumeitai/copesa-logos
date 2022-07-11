@@ -1,6 +1,6 @@
 import React from 'react'
 
-import LaTerceraPM from './LaTerceraPM'
+import { LaTerceraPM } from './LaTerceraPM'
 
 export default {
   title: 'Logos/La Tercera PM',

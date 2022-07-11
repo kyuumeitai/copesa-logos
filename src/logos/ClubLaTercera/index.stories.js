@@ -1,6 +1,6 @@
 import React from 'react'
 
-import ClubLaTercera from './ClubLaTercera'
+import { ClubLaTercera } from './ClubLaTercera'
 
 export default {
   title: 'Logos/Club La Tercera',
