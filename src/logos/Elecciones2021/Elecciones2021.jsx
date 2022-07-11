@@ -24,7 +24,8 @@ export const Elecciones2021 = props => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 439.64 142.81"
-      {...props}>
+      {...props}
+    >
       <defs>
         <style>{`.logo-elecciones-2021_svg__cls-2{fill: ${colorschema.isotypeletter}}`}</style>
       </defs>

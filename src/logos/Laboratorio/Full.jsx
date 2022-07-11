@@ -1,23 +1,23 @@
-import React from "react";
+import React from 'react'
 
 const LaboratorioFull = props => {
   const {
-    dark = "#000000",
-    light = "#ffffff",
-    red = "#cb2128",
-    schema = "common"
-  } = props;
+    dark = '#000000',
+    light = '#ffffff',
+    red = '#cb2128',
+    schema = 'common',
+  } = props
 
   const colorschema = {
     isotypebox: dark,
     isotypeletter: light,
-    letters: dark
-  };
+    letters: dark,
+  }
 
-  if (schema === "light") {
-    colorschema.isotypebox = light;
-    colorschema.isotypeletter = dark;
-    colorschema.letters = light;
+  if (schema === 'light') {
+    colorschema.isotypebox = light
+    colorschema.isotypeletter = dark
+    colorschema.letters = light
   }
 
   return (
@@ -32,7 +32,7 @@ const LaboratorioFull = props => {
         d="M177.04 17.29h9.45v51.65h27.03v8.39h-36.48V17.29zM224.33 25.67H206.5v-8.38h45.12v8.38h-17.84v51.66h-9.45V25.67z"
       />
     </svg>
-  );
-};
+  )
+}
 
-export default LaboratorioFull;
+export default LaboratorioFull

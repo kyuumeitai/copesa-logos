@@ -1,23 +1,23 @@
-import React from "react";
+import React from 'react'
 
-import Pulso from ".";
+import Pulso from '.'
 
 export default {
-  title: "Logos/Pulso",
+  title: 'Logos/Pulso',
   component: Pulso,
   argTypes: {
-    backgroundColor: { control: "color" }
-  }
-};
+    backgroundColor: { control: 'color' },
+  },
+}
 
-const Template = args => <Pulso {...args} />;
+const Template = args => <Pulso {...args} />
 
-export const Common = Template.bind({});
+export const Common = Template.bind({})
 Common.args = {
-  schema: "common"
-};
+  schema: 'common',
+}
 
-export const Light = Template.bind({});
+export const Light = Template.bind({})
 Light.args = {
-  schema: "light"
-};
+  schema: 'light',
+}

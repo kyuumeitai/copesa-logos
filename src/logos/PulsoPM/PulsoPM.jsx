@@ -32,7 +32,8 @@ export const PulsoPM = props => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 1086.78 298.57"
-      {...props}>
+      {...props}
+    >
       <g>
         {colorschema.mode === 'isocut' ? (
           <g>

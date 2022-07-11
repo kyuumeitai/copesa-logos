@@ -24,7 +24,8 @@ export const CandidatosElectorales = props => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 947.88 231.26"
-      {...props}>
+      {...props}
+    >
       <defs>
         <style>
           {`.logo-candidatos-electorales_svg__cls-1{fill:${colorschema.isotypebackground}}.logo-candidatos-electorales_svg__cls-2{fill:${colorschema.isotypeletter}}`}
@@ -32,7 +33,8 @@ export const CandidatosElectorales = props => {
       </defs>
       <g
         id="logo-candidatos-electorales_svg__Layer_2"
-        fill={colorschema.letters}>
+        fill={colorschema.letters}
+      >
         <g id="logo-candidatos-electorales_svg__superior">
           <path
             className="logo-candidatos-electorales_svg__cls-1"

@@ -1,23 +1,23 @@
-import React from "react";
+import React from 'react'
 
-import LaTerceraPM from ".";
+import LaTerceraPM from '.'
 
 export default {
-  title: "Logos/La Tercera PM",
+  title: 'Logos/La Tercera PM',
   component: LaTerceraPM,
   argTypes: {
-    backgroundColor: { control: "color" }
-  }
-};
+    backgroundColor: { control: 'color' },
+  },
+}
 
-const Template = args => <LaTerceraPM {...args} />;
+const Template = args => <LaTerceraPM {...args} />
 
-export const Common = Template.bind({});
+export const Common = Template.bind({})
 Common.args = {
-  schema: "common"
-};
+  schema: 'common',
+}
 
-export const Light = Template.bind({});
+export const Light = Template.bind({})
 Light.args = {
-  schema: "light"
-};
+  schema: 'light',
+}

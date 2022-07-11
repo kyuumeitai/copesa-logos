@@ -5,7 +5,8 @@ function SvgLaCuartaClaimVert(props) {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 344.02 137.74"
-      {...props}>
+      {...props}
+    >
       <defs>
         <style>
           {`.LaCuartaClaimVert_svg__cls-1{fill: ${props.colorschema.letters}}.LaCuartaClaimVert_svg__cls-2{fill: ${props.colorschema.letters}}`}

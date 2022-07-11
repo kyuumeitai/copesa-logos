@@ -1,23 +1,23 @@
-import React from "react";
+import React from 'react'
 
-import Practico from ".";
+import Practico from '.'
 
 export default {
-  title: "Logos/Práctico",
+  title: 'Logos/Práctico',
   component: Practico,
   argTypes: {
-    backgroundColor: { control: "color" }
-  }
-};
+    backgroundColor: { control: 'color' },
+  },
+}
 
-const Template = args => <Practico {...args} />;
+const Template = args => <Practico {...args} />
 
-export const Common = Template.bind({});
+export const Common = Template.bind({})
 Common.args = {
-  schema: "common"
-};
+  schema: 'common',
+}
 
-export const Light = Template.bind({});
+export const Light = Template.bind({})
 Light.args = {
-  schema: "light"
-};
+  schema: 'light',
+}

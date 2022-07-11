@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react'
 
 function SvgLaboratorioCircleBnFull(props) {
   return (
     <svg viewBox="0 0 137.98 137.98" {...props}>
       <defs>
-        <style>{".laboratorio-circle-bn-full_svg__cls-1{fill:#fff}"}</style>
+        <style>{'.laboratorio-circle-bn-full_svg__cls-1{fill:#fff}'}</style>
       </defs>
       <g id="laboratorio-circle-bn-full_svg__Layer_2" data-name="Layer 2">
         <g id="laboratorio-circle-bn-full_svg__Capa_1" data-name="Capa 1">
@@ -16,7 +16,7 @@ function SvgLaboratorioCircleBnFull(props) {
         </g>
       </g>
     </svg>
-  );
+  )
 }
 
-export default SvgLaboratorioCircleBnFull;
+export default SvgLaboratorioCircleBnFull

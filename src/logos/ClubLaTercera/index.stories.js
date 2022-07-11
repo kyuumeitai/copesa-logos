@@ -1,23 +1,23 @@
-import React from "react";
+import React from 'react'
 
-import ClubLaTercera from ".";
+import ClubLaTercera from '.'
 
 export default {
-  title: "Logos/Club La Tercera",
+  title: 'Logos/Club La Tercera',
   component: ClubLaTercera,
   argTypes: {
-    backgroundColor: { control: "color" }
-  }
-};
+    backgroundColor: { control: 'color' },
+  },
+}
 
-const Template = args => <ClubLaTercera {...args} />;
+const Template = args => <ClubLaTercera {...args} />
 
-export const Common = Template.bind({});
+export const Common = Template.bind({})
 Common.args = {
-  schema: "common"
-};
+  schema: 'common',
+}
 
-export const Light = Template.bind({});
+export const Light = Template.bind({})
 Light.args = {
-  schema: "light"
-};
+  schema: 'light',
+}

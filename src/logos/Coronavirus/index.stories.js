@@ -1,23 +1,23 @@
-import React from "react";
+import React from 'react'
 
-import Coronavirus from ".";
+import Coronavirus from '.'
 
 export default {
-  title: "Logos/Coronavirus",
+  title: 'Logos/Coronavirus',
   component: Coronavirus,
   argTypes: {
-    backgroundColor: { control: "color" }
-  }
-};
+    backgroundColor: { control: 'color' },
+  },
+}
 
-const Template = args => <Coronavirus {...args} />;
+const Template = args => <Coronavirus {...args} />
 
-export const Common = Template.bind({});
+export const Common = Template.bind({})
 Common.args = {
-  schema: "common"
-};
+  schema: 'common',
+}
 
-export const Light = Template.bind({});
+export const Light = Template.bind({})
 Light.args = {
-  schema: "light"
-};
+  schema: 'light',
+}

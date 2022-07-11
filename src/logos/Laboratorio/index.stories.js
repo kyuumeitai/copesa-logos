@@ -1,40 +1,40 @@
-import React from "react";
+import React from 'react'
 
-import Laboratorio from ".";
+import Laboratorio from '.'
 
 export default {
-  title: "Logos/Laboratorio",
+  title: 'Logos/Laboratorio',
   component: Laboratorio,
   argTypes: {
-    backgroundColor: { control: "color" }
-  }
-};
+    backgroundColor: { control: 'color' },
+  },
+}
 
-const Template = args => <Laboratorio {...args} />;
+const Template = args => <Laboratorio {...args} />
 
-export const Full = Template.bind({});
+export const Full = Template.bind({})
 Full.args = {
-  version: "full",
-  schema: "common"
-};
+  version: 'full',
+  schema: 'common',
+}
 
-export const FullLight = Template.bind({});
+export const FullLight = Template.bind({})
 FullLight.args = {
-  version: "full",
-  schema: "light"
-};
+  version: 'full',
+  schema: 'light',
+}
 
-export const Circle = Template.bind({});
+export const Circle = Template.bind({})
 Circle.args = {
-  version: "circle"
-};
+  version: 'circle',
+}
 
-export const CircleSmall = Template.bind({});
+export const CircleSmall = Template.bind({})
 CircleSmall.args = {
-  version: "circle-small"
-};
+  version: 'circle-small',
+}
 
-export const Small = Template.bind({});
+export const Small = Template.bind({})
 Small.args = {
-  version: "small"
-};
+  version: 'small',
+}

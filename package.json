@@ -9,7 +9,7 @@
   "module": "dist/esm/index.js",
   "sideEffects": false,
   "engines": {
-    "node": ">=14"
+    "node": ">=16"
   },
   "scripts": {
     "build": "rollup -c",
@@ -17,7 +17,8 @@
     "prepublish": "run-s build",
     "prepare": "run-s build",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "prettier": "prettier --write 'src/**/*.{js,jsx,ts,tsx}'"
   },
   "peerDependencies": {
     "react": "^17.0.2"

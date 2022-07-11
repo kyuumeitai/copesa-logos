@@ -1,23 +1,23 @@
-import React from "react";
+import React from 'react'
 
-import Duna from ".";
+import Duna from '.'
 
 export default {
-  title: "Logos/Duna",
+  title: 'Logos/Duna',
   component: Duna,
   argTypes: {
-    backgroundColor: { control: "color" }
-  }
-};
+    backgroundColor: { control: 'color' },
+  },
+}
 
-const Template = args => <Duna {...args} />;
+const Template = args => <Duna {...args} />
 
-export const Common = Template.bind({});
+export const Common = Template.bind({})
 Common.args = {
-  schema: "common"
-};
+  schema: 'common',
+}
 
-export const Light = Template.bind({});
+export const Light = Template.bind({})
 Light.args = {
-  schema: "light"
-};
+  schema: 'light',
+}

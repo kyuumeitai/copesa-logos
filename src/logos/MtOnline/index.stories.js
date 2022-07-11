@@ -1,23 +1,23 @@
-import React from "react";
+import React from 'react'
 
-import MtOnline from ".";
+import MtOnline from '.'
 
 export default {
-  title: "Logos/MtOnline",
+  title: 'Logos/MtOnline',
   component: MtOnline,
   argTypes: {
-    backgroundColor: { control: "color" }
-  }
-};
+    backgroundColor: { control: 'color' },
+  },
+}
 
-const Template = args => <MtOnline {...args} />;
+const Template = args => <MtOnline {...args} />
 
-export const Common = Template.bind({});
+export const Common = Template.bind({})
 Common.args = {
-  schema: "common"
-};
+  schema: 'common',
+}
 
-export const Light = Template.bind({});
+export const Light = Template.bind({})
 Light.args = {
-  schema: "light"
-};
+  schema: 'light',
+}

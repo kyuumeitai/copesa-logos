@@ -23,7 +23,8 @@ export const Glamorama = props => {
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
       viewBox="0 0 741.78 174.1"
-      {...props}>
+      {...props}
+    >
       <defs>
         <linearGradient
           id="glamorama_svg__b"
@@ -32,7 +33,8 @@ export const Glamorama = props => {
           x2={353.5}
           y2={44.69}
           gradientTransform="translate(-7.89 4.96)"
-          gradientUnits="userSpaceOnUse">
+          gradientUnits="userSpaceOnUse"
+        >
           <stop offset={0} stopColor="#d7dbd9" />
           <stop offset={0.16} stopColor="#dfe2e0" />
           <stop offset={0.37} stopColor="#d0d4d3" />
@@ -48,7 +50,8 @@ export const Glamorama = props => {
           x2={348.84}
           y2={30.38}
           gradientTransform="translate(-7.89 4.96)"
-          gradientUnits="userSpaceOnUse">
+          gradientUnits="userSpaceOnUse"
+        >
           <stop offset={0} stopColor="#e9eae8" />
           <stop offset={0.05} stopColor="#e6e7e5" />
           <stop offset={0.39} stopColor="#d1d5d3" />
@@ -64,7 +67,8 @@ export const Glamorama = props => {
           x2={351.35}
           y2={29.52}
           gradientTransform="translate(-7.89 4.96)"
-          gradientUnits="userSpaceOnUse">
+          gradientUnits="userSpaceOnUse"
+        >
           <stop offset={0.01} stopColor="#ececeb" />
           <stop offset={0.18} stopColor="#c0c1c0" />
           <stop offset={0.58} stopColor="#606061" />
@@ -86,7 +90,8 @@ export const Glamorama = props => {
           x2={402.28}
           y2={45.31}
           gradientTransform="translate(-7.89 4.96)"
-          gradientUnits="userSpaceOnUse">
+          gradientUnits="userSpaceOnUse"
+        >
           <stop offset={0} stopColor="#212124" />
           <stop offset={0.14} stopColor="#454648" />
           <stop offset={0.44} stopColor="#9fa3a4" />
@@ -131,7 +136,8 @@ export const Glamorama = props => {
           x2={379.83}
           y2={65.86}
           gradientTransform="translate(-7.89 4.96)"
-          gradientUnits="userSpaceOnUse">
+          gradientUnits="userSpaceOnUse"
+        >
           <stop offset={0} stopColor="#fff" />
           <stop offset={1} />
         </linearGradient>
@@ -142,7 +148,8 @@ export const Glamorama = props => {
           x2={361.41}
           y2={44}
           gradientTransform="translate(-7.89 4.96)"
-          gradientUnits="userSpaceOnUse">
+          gradientUnits="userSpaceOnUse"
+        >
           <stop offset={0} stopColor="#d7dbd9" />
           <stop offset={0.16} stopColor="#dfe2e0" />
           <stop offset={0.37} stopColor="#d0d4d3" />
@@ -162,7 +169,8 @@ export const Glamorama = props => {
           x2={372.39}
           y2={57.43}
           gradientTransform="translate(-7.89 4.96)"
-          gradientUnits="userSpaceOnUse">
+          gradientUnits="userSpaceOnUse"
+        >
           <stop offset={0} stopColor="#fff" />
           <stop offset={0.15} stopColor="#c4c4c4" />
           <stop offset={0.32} stopColor="#898989" />
@@ -179,7 +187,8 @@ export const Glamorama = props => {
           x2={346.69}
           y2={22.81}
           gradientTransform="translate(-7.89 4.96)"
-          gradientUnits="userSpaceOnUse">
+          gradientUnits="userSpaceOnUse"
+        >
           <stop offset={0} stopColor="#cacfcd" />
           <stop offset={0.07} stopColor="#d2d6d4" />
           <stop offset={0.33} stopColor="#e9eae8" />
@@ -195,7 +204,8 @@ export const Glamorama = props => {
           x2={345.39}
           y2={21.09}
           gradientTransform="translate(-7.89 4.96)"
-          gradientUnits="userSpaceOnUse">
+          gradientUnits="userSpaceOnUse"
+        >
           <stop offset={0} stopColor="#262325" />
           <stop offset={0.03} stopColor="#373536" />
           <stop offset={0.18} stopColor="#969595" />

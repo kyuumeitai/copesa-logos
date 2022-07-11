@@ -5,7 +5,8 @@ function SvgLaCuartaVertConstructor(props) {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 421.13 164.53"
-      {...props}>
+      {...props}
+    >
       <defs>
         <style>{`.LaCuartaVertConstructor_svg__cls-1{fill: ${props.colorschema.letters}}`}</style>
       </defs>

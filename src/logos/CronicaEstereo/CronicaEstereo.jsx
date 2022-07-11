@@ -15,7 +15,8 @@ export const CronicaEstereo = props => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 404.16 375.64"
-      {...props}>
+      {...props}
+    >
       <g data-name="Layer 2">
         <g fill={colorschema.letters} data-name="Crónica Estéreo">
           <path d="M92.73 220.1a109.16 109.16 0 0132.1-77.3l-9-9a121.8 121.8 0 000 172.5l9-9a108.57 108.57 0 01-32.1-77.2M311.43 220.1a109.16 109.16 0 01-32.1 77.3l9 9a121.68 121.68 0 000-172.4l-9 9a108.51 108.51 0 0132.1 77.1" />

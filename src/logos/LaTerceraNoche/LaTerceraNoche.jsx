@@ -19,7 +19,8 @@ export const LaTerceraNoche = props => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 1686.47 278.68"
-      {...props}>
+      {...props}
+    >
       <defs>
         <clipPath id="la-tercera-noche_svg__a">
           <path

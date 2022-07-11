@@ -1,23 +1,23 @@
-import React from "react";
+import React from 'react'
 
-import MtNews from ".";
+import MtNews from '.'
 
 export default {
-  title: "Logos/MtNews",
+  title: 'Logos/MtNews',
   component: MtNews,
   argTypes: {
-    backgroundColor: { control: "color" }
-  }
-};
+    backgroundColor: { control: 'color' },
+  },
+}
 
-const Template = args => <MtNews {...args} />;
+const Template = args => <MtNews {...args} />
 
-export const Common = Template.bind({});
+export const Common = Template.bind({})
 Common.args = {
-  schema: "common"
-};
+  schema: 'common',
+}
 
-export const Light = Template.bind({});
+export const Light = Template.bind({})
 Light.args = {
-  schema: "light"
-};
+  schema: 'light',
+}
