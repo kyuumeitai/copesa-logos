@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Glamorama from '.'
+import { Glamorama } from './Glamorama'
 
 export default {
   title: 'Logos/Glamorama',

@@ -1,23 +1,23 @@
-import React from "react";
+import React from 'react'
 
-import Finde from ".";
+import { Finde } from './Finde'
 
 export default {
-  title: "Logos/Finde",
+  title: 'Logos/Finde',
   component: Finde,
   argTypes: {
-    backgroundColor: { control: "color" }
-  }
-};
+    backgroundColor: { control: 'color' },
+  },
+}
 
-const Template = args => <Finde {...args} />;
+const Template = args => <Finde {...args} />
 
-export const Common = Template.bind({});
+export const Common = Template.bind({})
 Common.args = {
-  schema: "common"
-};
+  schema: 'common',
+}
 
-export const Light = Template.bind({});
+export const Light = Template.bind({})
 Light.args = {
-  schema: "light"
-};
+  schema: 'light',
+}

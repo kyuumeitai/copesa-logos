@@ -26,7 +26,8 @@ const LaTerceraDomingo = props => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 2553.67 184.47"
-      {...props}>
+      {...props}
+    >
       <g data-name="Layer 2">
         <g data-name="grupo copesa">
           <g fill={colorschema.letters}>

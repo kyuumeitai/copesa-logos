@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Elecciones2021 from '.'
+import { Elecciones2021 } from './Elecciones2021'
 
 export default {
   title: 'Logos/Elecciones2021',

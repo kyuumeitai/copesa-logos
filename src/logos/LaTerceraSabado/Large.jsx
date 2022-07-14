@@ -26,7 +26,8 @@ const LaTerceraSabado = props => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 2350.8 197.64"
-      {...props}>
+      {...props}
+    >
       <g>
         <g fill={colorschema.letters}>
           <path d="M523.67 43.46H474V20.09h125.77v23.37h-49.75v144.03h-26.35V43.46z" />

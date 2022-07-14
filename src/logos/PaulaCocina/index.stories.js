@@ -1,23 +1,23 @@
-import React from "react";
+import React from 'react'
 
-import PaulaCocina from ".";
+import { PaulaCocina } from './PaulaCocina'
 
 export default {
-  title: "Logos/Paula Cocina",
+  title: 'Logos/Paula Cocina',
   component: PaulaCocina,
   argTypes: {
-    backgroundColor: { control: "color" }
-  }
-};
+    backgroundColor: { control: 'color' },
+  },
+}
 
-const Template = args => <PaulaCocina {...args} />;
+const Template = args => <PaulaCocina {...args} />
 
-export const Common = Template.bind({});
+export const Common = Template.bind({})
 Common.args = {
-  schema: "common"
-};
+  schema: 'common',
+}
 
-export const Light = Template.bind({});
+export const Light = Template.bind({})
 Light.args = {
-  schema: "light"
-};
+  schema: 'light',
+}

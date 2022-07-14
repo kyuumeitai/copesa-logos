@@ -1,6 +1,6 @@
 import React from 'react'
 
-import LaCuarta from '.'
+import { LaCuarta } from './LaCuarta'
 
 export default {
   title: 'Logos/LaCuarta',

@@ -1,23 +1,23 @@
-import React from "react";
+import React from 'react'
 
-import Icarito from ".";
+import { Icarito } from './Icarito'
 
 export default {
-  title: "Logos/Icarito",
+  title: 'Logos/Icarito',
   component: Icarito,
   argTypes: {
-    backgroundColor: { control: "color" }
-  }
-};
+    backgroundColor: { control: 'color' },
+  },
+}
 
-const Template = args => <Icarito {...args} />;
+const Template = args => <Icarito {...args} />
 
-export const Common = Template.bind({});
+export const Common = Template.bind({})
 Common.args = {
-  schema: "common"
-};
+  schema: 'common',
+}
 
-export const Light = Template.bind({});
+export const Light = Template.bind({})
 Light.args = {
-  schema: "light"
-};
+  schema: 'light',
+}

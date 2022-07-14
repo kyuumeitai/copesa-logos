@@ -1,6 +1,6 @@
 import React from 'react'
 
-import MatchElectoral from '.'
+import { MatchElectoral } from './MatchElectoral'
 
 export default {
   title: 'Logos/MatchElectoral',

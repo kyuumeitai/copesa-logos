@@ -1,23 +1,23 @@
-import React from "react";
+import React from 'react'
 
-import FactChecking from ".";
+import { FactChecking } from './FactChecking'
 
 export default {
-  title: "Logos/Fact Checking",
+  title: 'Logos/Fact Checking',
   component: FactChecking,
   argTypes: {
-    backgroundColor: { control: "color" }
-  }
-};
+    backgroundColor: { control: 'color' },
+  },
+}
 
-const Template = args => <FactChecking {...args} />;
+const Template = args => <FactChecking {...args} />
 
-export const Common = Template.bind({});
+export const Common = Template.bind({})
 Common.args = {
-  schema: "common"
-};
+  schema: 'common',
+}
 
-export const Light = Template.bind({});
+export const Light = Template.bind({})
 Light.args = {
-  schema: "light"
-};
+  schema: 'light',
+}

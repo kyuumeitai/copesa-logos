@@ -1,23 +1,23 @@
-import React from "react";
+import React from 'react'
 
-import Culto from ".";
+import { Culto } from './Culto'
 
 export default {
-  title: "Logos/Culto",
+  title: 'Logos/Culto',
   component: Culto,
   argTypes: {
-    backgroundColor: { control: "color" }
-  }
-};
+    backgroundColor: { control: 'color' },
+  },
+}
 
-const Template = args => <Culto {...args} />;
+const Template = args => <Culto {...args} />
 
-export const Common = Template.bind({});
+export const Common = Template.bind({})
 Common.args = {
-  schema: "common"
-};
+  schema: 'common',
+}
 
-export const Light = Template.bind({});
+export const Light = Template.bind({})
 Light.args = {
-  schema: "light"
-};
+  schema: 'light',
+}

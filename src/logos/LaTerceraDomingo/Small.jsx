@@ -35,7 +35,8 @@ const LaTerceraDomingoSmall = props => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 1329.67 184.47"
-      {...props}>
+      {...props}
+    >
       <g>
         {colorschema.mode === 'isocut' ? (
           <g>

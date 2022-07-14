@@ -1,6 +1,6 @@
 import React from 'react'
 
-import LaTerceraDomingo from '.'
+import { LaTerceraDomingo } from './LaTerceraDomingo'
 
 export default {
   title: 'Logos/La Tercera Domingo',

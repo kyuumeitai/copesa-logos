@@ -1,10 +1,10 @@
-import * as React from "react";
+import * as React from 'react'
 
 function SvgLaboratorioSmall(props) {
   return (
     <svg viewBox="0 0 256.16 94.18" {...props}>
       <defs>
-        <style>{".laboratorio-small_svg__cls-2{fill:#fff}"}</style>
+        <style>{'.laboratorio-small_svg__cls-2{fill:#fff}'}</style>
       </defs>
       <g id="laboratorio-small_svg__Layer_2" data-name="Layer 2">
         <g id="laboratorio-small_svg__Capa_1" data-name="Capa 1">
@@ -17,7 +17,7 @@ function SvgLaboratorioSmall(props) {
         </g>
       </g>
     </svg>
-  );
+  )
 }
 
-export default SvgLaboratorioSmall;
+export default SvgLaboratorioSmall
