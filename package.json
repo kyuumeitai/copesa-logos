@@ -21,7 +21,7 @@
     "prettier": "prettier --write 'src/**/*.{js,jsx,ts,tsx}'"
   },
   "peerDependencies": {
-    "react": "^17.0.2"
+    "react": ">=17.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.17.10",
