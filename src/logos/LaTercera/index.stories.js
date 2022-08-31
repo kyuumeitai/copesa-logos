@@ -21,3 +21,15 @@ export const Light = Template.bind({})
 Light.args = {
   schema: 'light',
 }
+
+export const Isotype = Template.bind({})
+Isotype.args = {
+  version: 'isotype',
+  schema: 'common',
+}
+
+export const IsotypeLight = Template.bind({})
+IsotypeLight.args = {
+  version: 'isotype',
+  schema: 'light',
+}

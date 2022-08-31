@@ -3,7 +3,7 @@ import React from 'react'
 import { LaCuarta } from './LaCuarta'
 
 export default {
-  title: 'Logos/LaCuarta',
+  title: 'Logos/La Cuarta',
   component: LaCuarta,
   argTypes: {
     backgroundColor: { control: 'color' },
