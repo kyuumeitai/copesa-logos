@@ -14,8 +14,8 @@
   "scripts": {
     "build": "rollup -c",
     "start": "yarn storybook",
-    "prepublish": "yarn build",
-    "prepare": "yarn build",
+    "prepublish": "run-s build",
+    "prepare": "run-s build",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "prettier": "prettier --write 'src/**/*.{js,jsx,ts,tsx}'"
