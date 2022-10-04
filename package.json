@@ -7,6 +7,7 @@
   "repository": "kyuumeitai/copesa-logos",
   "main": "dist/esm/index.js",
   "module": "dist/esm/index.js",
+  "type":"module",
   "sideEffects": false,
   "engines": {
     "node": ">14"
