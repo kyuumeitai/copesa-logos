@@ -1,13 +1,13 @@
 {
   "name": "copesa-logos",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Logos de La Tercera y copesa",
   "author": "kyuumeitai",
   "license": "MIT",
   "repository": "kyuumeitai/copesa-logos",
   "main": "dist/esm/index.js",
   "module": "dist/esm/index.js",
-  "type":"module",
+  "type": "module",
   "sideEffects": false,
   "engines": {
     "node": ">14"
