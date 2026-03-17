@@ -1,7 +1,26 @@
+const { mergeConfig } = require('vite')
+
 module.exports = {
-  stories: ['../src/**/*.stories.mdx', '../src/**/*.stories.@(js|jsx|ts|tsx)'],
+  stories: ['../src/**/*.stories.@(js|jsx|ts|tsx)'],
   addons: ['@storybook/addon-links', '@storybook/addon-essentials'],
-  core: {
-    builder: 'webpack5',
+  framework: {
+    name: '@storybook/react-vite',
+    options: {},
+  },
+  async viteFinal(config) {
+    return mergeConfig(config, {
+      esbuild: {
+        loader: 'jsx',
+        include: /src\/.*\.[jt]sx?$/,
+        exclude: [],
+      },
+      optimizeDeps: {
+        esbuildOptions: {
+          loader: {
+            '.js': 'jsx',
+          },
+        },
+      },
+    })
   },
 }

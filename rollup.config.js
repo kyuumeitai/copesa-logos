@@ -1,39 +1,38 @@
-import { nodeResolve } from '@rollup/plugin-node-resolve'
-import { terser } from 'rollup-plugin-terser'
-import external from 'rollup-plugin-peer-deps-external'
-import { babel } from '@rollup/plugin-babel'
-import del from 'rollup-plugin-delete'
-import path from 'path'
-import glob from 'glob'
+const path = require('path')
+const { globSync } = require('glob')
+const { nodeResolve } = require('@rollup/plugin-node-resolve')
+const { babel } = require('@rollup/plugin-babel')
+const terser = require('@rollup/plugin-terser')
 
 const packageJson = require('./package.json')
 
-const allLogos = () => {
-  const logos = glob.sync(path.join(__dirname, './src/logos/**/*.jsx'))
-  // console.log('logos glob', logos)
-  const arr = [
-    ...new Set(logos.map(logo => logo.split('/')[logo.split('/').length - 2])),
-  ]
-  return arr
-    .filter(item => item !== 'logos')
-    .map(logo => {
-      return `src/logos/${logo}/${logo}.jsx`
-    })
+const entryPoints = () => {
+  const logos = globSync(path.join(__dirname, 'src/logos/**/*.jsx'))
+  const entries = [...new Set(logos.map(file => file.split('/').at(-2)))]
+
+  return entries
+    .filter(entry => entry !== 'logos')
+    .map(entry => `src/logos/${entry}/${entry}.jsx`)
 }
 
-export default {
-  input: [...allLogos(), 'src/index.js'],
-  output: [
-    {
-      dir: 'dist/esm',
-      format: 'esm',
-      sourcemap: false,
-    },
-  ],
+const externalPackages = [
+  ...Object.keys(packageJson.dependencies || {}),
+  ...Object.keys(packageJson.peerDependencies || {}),
+]
+
+const isExternal = id =>
+  externalPackages.some(pkg => id === pkg || id.startsWith(`${pkg}/`))
+
+module.exports = {
+  input: [...entryPoints(), 'src/index.js'],
+  output: {
+    dir: 'dist/esm',
+    format: 'esm',
+    sourcemap: false,
+  },
+  external: isExternal,
   plugins: [
-    del({ targets: 'dist/*' }),
-    nodeResolve({ extensions: ['.jsx', '.js'] }),
-    external({ deps: true }),
+    nodeResolve({ extensions: ['.js', '.jsx'] }),
     babel({
       babelHelpers: 'runtime',
       exclude: '**/node_modules/**',

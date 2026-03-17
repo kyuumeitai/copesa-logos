@@ -1,30 +1,43 @@
-# latercera-logos
+# @labcon/copesa-logos
 
-> Logos de La Tercera y copesa
-
-[![NPM](https://img.shields.io/npm/v/latercera-logos.svg)](https://www.npmjs.com/package/latercera-logos) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+Logos de La Tercera y Copesa as React components.
 
 ## Install
 
 ```bash
-npm install --save latercera-logos
+npm install @labcon/copesa-logos
 ```
 
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import { Interactivo, LaTercera } from '@labcon/copesa-logos'
 
-import MyComponent from 'latercera-logos'
-import 'latercera-logos/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+export function Header() {
+  return (
+    <header>
+      <Interactivo />
+      <LaTercera schema="light" />
+    </header>
+  )
 }
 ```
 
-## License
+## Local Development
 
-MIT © [kyuumeitai](https://github.com/kyuumeitai)
+```bash
+npm install
+npm run build
+```
+
+For iterative work on the library output, run:
+
+```bash
+npm run dev
+```
+
+To preview components in Storybook:
+
+```bash
+npm run storybook
+```
